@@ -1,60 +1,111 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tasty &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="freehtml5.co" />
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Tasty &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+		<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+		<meta name="author" content="freehtml5.co" />
 
-	<!-- 
-	//////////////////////////////////////////////////////
+		<!-- 
+		//////////////////////////////////////////////////////
 
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
+		FREE HTML5 TEMPLATE 
+		DESIGNED & DEVELOPED by FreeHTML5.co
 		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
+		Website: 		http://freehtml5.co/
+		Email: 			info@freehtml5.co
+		Twitter: 		http://twitter.com/fh5co
+		Facebook: 		https://www.facebook.com/fh5co
 
-	//////////////////////////////////////////////////////
-	 -->
+		//////////////////////////////////////////////////////
+	 	-->
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+  		<!-- Facebook and Twitter integration -->
+		<meta property="og:title" content=""/>
+		<meta property="og:image" content=""/>
+		<meta property="og:url" content=""/>
+		<meta property="og:site_name" content=""/>
+		<meta property="og:description" content=""/>
+		<meta name="twitter:title" content="" />
+		<meta name="twitter:image" content="" />
+		<meta name="twitter:url" content="" />
+		<meta name="twitter:card" content="" />
 
-	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+		<link rel="stylesheet" href="css/slider.min.css" />
 	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- Icomoon Icon Fonts-->
+		<link rel="stylesheet" href="css/icomoon.css">
+		<!-- Bootstrap  -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<!-- Flexslider  -->
+		<link rel="stylesheet" href="css/flexslider.css">
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+		<!-- Theme style  -->
+		<link rel="stylesheet" href="css/style.css">
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+		<!-- Modernizr JS -->
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+		<style>
+			html,
+			body {
+			position: relative;
+			height: 100%;
+			}
+
+			body {
+			/* background: #eee; */
+			/* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+			font-size: 14px;
+			color: #000;
+			margin: 0;
+			padding: 0;
+			}
+
+			.swiper {
+			width: 100%;
+			height: 100%;
+			}
+
+			.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			/* background: #fff; */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			}
+
+			.swiper-slide img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			}
+
+			.swiper {
+			margin-left: auto;
+			margin-right: auto;
+			}
+
+			.swiper-pagination-bullet {
+				background-color: #fff;
+			}
+
+			.swiper-button-next, .swiper-button-prev {
+				color: #ea272d73;
+			}
+		</style>
 
 	</head>
 	<body>
@@ -62,7 +113,7 @@
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
+	<nav class="fh5co-nav" role="navigation" style="background: #000;">
 		<!-- <div class="top-menu"> -->
 			<div class="container">
 				<div class="row">
@@ -119,13 +170,30 @@
 					<img src="images/matthew.jpeg" style="max-height: 100%; max-width: 100%;" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
 				</div>
 				<div class="col-md-8 col-md-push-1 animate-box" style="left: 0;">
-					<div class="section-heading" style="padding: 10px">
+					<div class="section-heading" >
 						<div>
 							<h2 style="display: inline;">About Matthew Jaskiewicz_</h2><h2 style="display: inline; color: #ea272d;">____ .</h2>
 						</div>
-						<p>Matthew Jaskiewicz is a renowned music director in Europe and in North America. He received his conducting training at the Warsaw Academy of Music in Poland, and after graduating, he soon established his reputation as a outstanding director with the Warsaw University Choir. The choir’s greatest achievement was winning first prize at the British Middlesborough Choral Competition in 1970. In the 1971-72 season, Matthew directed the award- winning men and boys’ choir, Les Rossignolet de Roubaix, in France.  After returning to Poland, Matthew became the conductor of the Warsaw Chamber Opera, where he created the Ars Antiqua Chamber Choir. When the choir moved to the Warsaw Music Society, Matthew became the music director of the series of concerts at various churches in Warsaw.</p>
-						<p>Soon after arriving in Canada in 1984, Mr. Jaskiewicz founded the Polish Canadian Society of Music and the Musica Antiqua Chamber Choir and Orchestra (now the Toronto Sinfonietta), and co-founded the Oakham House Choir at Ryerson University. Since then he has been instrumental in establishing both the choir and the Sinfonietta as respected performers on Toronto’s musical scene. Mr. Jaskiewicz is also well regarded for his work with the Northumberland Orchestra and Choir in Cobourg, Ontario, which he directed for 17 years, and for his work with the Baycrest Music Society.  He has also directed the Polish Symfonia Choir in Hamilton and the Angel Choir, for children, in Toronto’s Chinese community.</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Our History</a></p>
+						<div class="swiper mySwiper" style="padding: 20px 20px 0 20px;">
+    						<div class="swiper-wrapper">
+      						<div class="swiper-slide" style="display: block;">
+								<p>Matthew Jaskiewicz is a renowned music director in Europe and in North America. He received his conducting training at the Warsaw Academy of Music in Poland, and after graduating, he soon established his reputation as a outstanding director with the Warsaw University Choir. The choir’s greatest achievement was winning first prize at the British Middlesborough Choral Competition in 1970. In the 1971-72 season, Matthew directed the award- winning men and boys’ choir, Les Rossignolet de Roubaix, in France.  After returning to Poland, Matthew became the conductor of the Warsaw Chamber Opera, where he created the Ars Antiqua Chamber Choir. When the choir moved to the Warsaw Music Society, Matthew became the music director of the series of concerts at various churches in Warsaw.</p>
+								<p>Soon after arriving in Canada in 1984, Mr. Jaskiewicz founded the Polish Canadian Society of Music and the Musica Antiqua Chamber Choir and Orchestra (now the Toronto Sinfonietta), and co-founded the Oakham House Choir at Ryerson University. Since then he has been instrumental in establishing both the choir and the Sinfonietta as respected performers on Toronto’s musical scene. Mr. Jaskiewicz is also well regarded for his work with the Northumberland Orchestra and Choir in Cobourg, Ontario, which he directed for 17 years, and for his work with the Baycrest Music Society.  He has also directed the Polish Symfonia Choir in Hamilton and the Angel Choir, for children, in Toronto’s Chinese community.</p>
+							</div>
+      						<div class="swiper-slide" style="display: block;">
+								  <p>In 2005, Matthew was instrumental in establishing the Toronto Sinfonietta’s annual Concerto Competition for young musicians, and since then, has served on the jury as Artistic Director of the competition. In recognition of his contribution to the arts and culture in his adopted home, Mr. Jaskiewicz was awarded the Knight’s Cross of the Order of Polonia Restituta, one of the highest honours bestowed by the president of Poland, and the Gloria Artis medal for his contributions to Polish culture.</p>
+								  <p>In 2014, Matthew established Novi Singers Toronto, a choir based in the Polish community. In addition to celebrating Christmas and Easter, every year the choir commemorates the anniversary of the first Polish Democratic Constitution of 1791 and the liberation of Poland in 1918. For almost 40 years, Matthew has been the Music Director of Oakham House Choir, which later on changed its name to Toronto Concert Choir. The choir was regularly rehearsing at Toronto Metropolitan University and performing with Toronto Sinfonietta, in various churches in Toronto. After 40 years, Matthew retired from the choir with the Christmas concert of 2023.</p>
+							</div>
+      						<div class="swiper-slide" style="display: block;">
+								<p>With all his choirs and orchestras, and with the piano, Matthew always focused his attention on the best and the most beautiful choral music. As a result, countless choristers, musicians and members of the audience from different communities of Toronto were given an opportunity to perform and hear many masterpieces, such as Mozart’s Requiem, Handel’s Messiah, Beethoven’s Mass in C, Jenkins’ Mass for Peace, Orff’s Carmina Burana, Giejlo’s Sunrise Mass and numerous operatic works. Occasionally, his ensembles offered programs with more entertaining and popular repertoire.</p>
+								<p>‘Never retire’, is well-known saying among musicians, and Matthew Jaskiewicz has been no exception. In 2024, he continues to give concerts, mostly for the Polish community of Toronto and Mississauga, with Novi Singers choristers and musicians. In his spare time, Matthew has been writing arrangements for choral music. His work represents a collection of his in-depth knowledge, vast experience and unique interpretation of choral music.</p>
+							</div>
+    						</div>
+    						<div class="swiper-button-next"></div>
+    						<div class="swiper-button-prev"></div>
+    						<div class="swiper-pagination"></div>
+  						</div>
+						<p style="text-align: center;"><a href="#" class="btn btn-primary btn-outline">Our History</a></p>
 					</div>
 				</div>
 			</div>
@@ -425,6 +493,24 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="js/slider.min.js"></script>
+
+  		<!-- Initialize Swiper -->
+  		<script>
+    		var swiper = new Swiper(".mySwiper", {
+      		slidesPerView: 1,
+      		spaceBetween: 30,
+      		loop: true,
+      		pagination: {
+        		el: ".swiper-pagination",
+        		clickable: true,
+      		},
+      		navigation: {
+        		nextEl: ".swiper-button-next",
+        		prevEl: ".swiper-button-prev",
+      		},
+    		});
+  		</script>
 
 	</body>
 </html>
