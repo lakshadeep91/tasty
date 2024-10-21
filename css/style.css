@@ -1785,3 +1785,25 @@ textarea {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Choral Arrangements */
+.fh5co-blog {
+  margin: 0;
+}
+#fh5co-blog .fh5co-heading, #fh5co-contact .fh5co-heading {
+  margin-bottom: 20px;
+}
+.fh5co-blog .blog-text {
+  padding: 0;
+  text-align: center;
+}
+.fh5co-blog .blog-text h3 {
+  margin: 0;
+  color: #fff;
+}
+.fh5co-blog .blog-text p {
+  margin-top: 20px;
+}
+.choral-info  {
+  padding: 20px;
+}
