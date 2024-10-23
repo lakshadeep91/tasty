@@ -1917,4 +1917,8 @@ body {
     .swiper-slide p {
       font-size: 15px !important;
     }
+    .swiper-button-next,
+    .swiper-button-prev {
+      --swiper-navigation-size: 20px;
+    }
   }
