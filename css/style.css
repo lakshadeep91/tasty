@@ -1786,10 +1786,22 @@ textarea {
 
 /*# sourceMappingURL=style.css.map */
 
+#fh5co-header,
+#fh5co-about,
+#fh5co-blog,
+#fh5co-started,
+#fh5co-footer,
+#fh5co-contact,
+.fh5co-nav {
+  background: #101010 url(broken_noisees/broken_noise.png);
+}
+
+
 /* Choral Arrangements */
 .fh5co-blog {
   margin: 0;
 }
+
 #fh5co-blog .fh5co-heading, #fh5co-contact .fh5co-heading {
   margin-bottom: 20px;
 }
