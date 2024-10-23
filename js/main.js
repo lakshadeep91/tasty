@@ -330,6 +330,49 @@
    	});
 		// zoomFunc();
 	});
+	$(document).ready(function() {
+
+		$('.btn-polish').click(function () {
+			console.log
+			$('#polish-about-me').hide()
+			$('#english-about-me').show()
+		});
+		$('.btn-english').click(function () {
+			$('#english-about-me').hide()
+			$('#polish-about-me').show()
+		});
+		const year = new Date().getFullYear();
+		$('#copyright-text').html('&copy; ' + year + ' by Matthew Jaskiewicz')
+	});	
+	$('.js-fullheight').css('height', $(window).height());
 
 
+	// var swiper = new Swiper(".mySwiper", {
+	// slidesPerView: 1,
+	// spaceBetween: 30,
+	// loop: true,
+	// pagination: {
+	// 	el: ".swiper-pagination",
+	// 	clickable: true,
+	// },
+	// navigation: {
+	// 	nextEl: ".swiper-button-next",
+	// 	prevEl: ".swiper-button-prev",
+	// },
+	// });
+	// $(document).ready(function() {
+	// 	$("#bg-video").get(0).play()
+	// });
+	// $('.btn-polish').click(function () {
+	// 	console.log
+	// 	$('#polish-about-me').hide()
+	// 	$('#english-about-me').show()
+	// });
+	// $('.btn-english').click(function () {
+	// 	$('#english-about-me').hide()
+	// 	$('#polish-about-me').show()
+	// });
+	// $('.js-fullheight').css('height', $(window).height());
+	// year = new Date().getFullYear()	
+	// $('#copyright-text').html('&copy; ' + year + ' by Matthew Jaskiewicz')
 }());
