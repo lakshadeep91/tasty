@@ -1813,6 +1813,7 @@ Custom Css
 .fh5co-blog .blog-text {
   padding: 0;
   text-align: center;
+  height: 300px;
 }
 .fh5co-blog .blog-text h3 {
   margin: 0;
