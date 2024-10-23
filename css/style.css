@@ -912,7 +912,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 480px) {
   #fh5co-timeline .timeline > li > .timeline-panel {
-    width: 75% !important;
+    width: 85% !important;
   }
   #fh5co-timeline .timeline > li > .timeline-panel:before {
     top: 30px;
