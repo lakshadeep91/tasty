@@ -1827,7 +1827,7 @@ Custom Css
 
 body {
   font-size: 14px;
-  color: #000;
+  /* color: #000; */
   margin: 0;
   padding: 0;
 }
