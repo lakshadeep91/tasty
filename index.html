@@ -59,38 +59,45 @@
 		<style>
 
 			body {
-			/* background: #eee; */
-			/* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
-			font-size: 14px;
-			color: #000;
-			margin: 0;
-			padding: 0;
+				font-size: 14px;
+				color: #000;
+				margin: 0;
+				padding: 0;
+			}
+
+			.section-heading {
+				margin-bottom: 0;
+				padding: 40px 20px 20px 20px;
+			}
+
+			.about-me-translate {
+				margin: 0;
 			}
 
 			.swiper {
-			width: 100%;
-			height: 100%;
+				width: 100%;
+				height: 100%;
 			}
 
 			.swiper-slide {
-			text-align: center;
-			font-size: 18px;
-			/* background: #fff; */
-			display: flex;
-			justify-content: center;
-			align-items: center;
+				text-align: center;
+				font-size: 18px;
+				/* background: #fff; */
+				display: flex;
+				justify-content: center;
+				align-items: center;
 			}
 
 			.swiper-slide img {
-			display: block;
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
 			}
 
 			.swiper {
-			margin-left: auto;
-			margin-right: auto;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 			.swiper-pagination-bullet {
@@ -104,11 +111,6 @@
 			.fh5co-section p {
 				color: rgb(255 255 255 / 0.4);
 			}
-			 /* @media (min-width: 768px) and (max-width: 992px){
-				body {
-					background: red;
-				}
-			 } */
 			 @media (max-width: 500px){
 				#fh5co-logo a {
 					font-size: 30px !important;
@@ -141,46 +143,37 @@
 					font-size: 15px !important;
 				}
 			 }
-
 		</style>
-
 	</head>
 	<body>
-		
 	<div class="fh5co-loader"></div>
-	
 	<div id="page">
 	<nav class="fh5co-nav" role="navigation" style="background: #040404f7 url(../images/broken_noise.png) repeat;">
-		<!-- <div class="top-menu"> -->
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 text-center logo-wrap">
-						<div id="fh5co-logo"><a href="index.html">Matthew <span>J</span> Music</a></div>
-					</div>
-					<div class="col-xs-12 text-center menu-1 menu-wrap">
-						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<!-- <li><a href="menu.html">Menu</a></li> -->
-							<li><a href="#">Choirs & Orchestras</a></li>
-							<li><a href="arrangements.html">Arrangements</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="#">News</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-					</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center logo-wrap">
+					<div id="fh5co-logo"><a href="index.html">Matthew <span>J</span> Music</a></div>
 				</div>
-				
+				<div class="col-xs-12 text-center menu-1 menu-wrap">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<!-- <li><a href="menu.html">Menu</a></li> -->
+						<li><a href="#">Choirs & Orchestras</a></li>
+						<li><a href="arrangements.html">Arrangements</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
 			</div>
-		<!-- </div> -->
+		</div>
 	</nav>
-
-	<!-- <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5"> -->
-		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" data-stellar-background-ratio="0.5" style="margin: 50px auto 30px auto;">
+		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" data-stellar-background-ratio="0.5" style="margin: 0;">
 			<video id="background-video" autoplay muted poster="https://assets.codepen.io/6093409/river.jpg" style="position: fixed; width: 100%; filter: blur(5px);">
 				  <source src="matthew.mp4" type="video/mp4">
 			</video>
-			<div class="overlay"></div>
+			<div class="overlayjs-fullheight"></div>
 			<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
@@ -196,12 +189,11 @@
 			</div>
 		</div>
 	</header>
-
-	<div id="fh5co-about" class="fh5co-section" style="position: sticky; background: #101010 url(broken_noisees/broken_noise.png);">
-		<div class="container" style="margin: 5px; width: 100%">
+	<div id="fh5co-about" class="fh5co-section" style="padding: 0 0 3em 0; position: sticky; background: #101010 url(broken_noisees/broken_noise.png);">
+		<div class="container" style="margin: 5px; padding: 0; width: 100%">
 			<div class="row">
-				<div class="col-md-4 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft" style="left: 0; text-align: center;">
-					<img src="images/matthew.jpeg" style="max-height: 100%; max-width: 100%;" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+				<div class="col-md-4 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft" style="left: 0; text-align: center; padding: 0;">
+					<img src="images/matthew.jpeg" style="margin: 0; max-height: 100%; max-width: 100%;" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
 				</div>
 				<div class="col-md-8 col-md-push-1 animate-box" style="left: 0;">
 					<div id="english-about-me" class="section-heading">
@@ -227,7 +219,7 @@
     						<div class="swiper-button-prev"></div>
     						<div class="swiper-pagination"></div>
   						</div>
-						<p style="text-align: center;">
+						<p class="about-me-translate" style="text-align: center;">
 							<a class="btn btn-primary btn-outline btn-english">View in Polish</a>
 						</p>
 					</div>
@@ -276,13 +268,12 @@
 									<p>W roku 2014, sukces artystyczny koncertu dla uczczenia Beatyfikacji Karola Wojtyły zainspirował chóralnych działaczy w polskim środowisku do utworzenia chóru Novi Singers. Ambitny i atrakcyjny repertuar tego chóru zaowocował licznymi występami, wielokrotnie z udziałem orkiestry Toronto Sinfonietta i zaprzyjaźnionego chóru Oakham House Choir na Uniwersytecie Ryerson. Wspólnie wykonano takie arcydzieła jak: Requiem Mozarta, Msza G dur Schuberta i wiele innych pozycji oratoryjnych.</p>
 									<p>Powstanie chóru Novi Singers przyniosło ożywienie muzycznej działalności w środowisku polonijnym Toronto i zaowocowało systematycznymi koncertami chóralnymi I symfonicznymi dla uświetnienia listopadowego Święta Niepodległości i rocznicy Konstytucji 3-maja. Polscy soliści z Kanady i nierzadko młodzież szkolna, prezentują na tych koncertach arcydzieła muzyki polskiej i światowej. Od roku 2023 Novi Singers prezentują również programy Bożonarodzeniowe i Wielkanocne dla Polonii w kościele Św. Maksymiliana Kolbe w Mississauga.</p>
 								</div>
-
     						</div>
     						<div class="swiper-button-next"></div>
     						<div class="swiper-button-prev"></div>
     						<div class="swiper-pagination"></div>
   						</div>
-						<p style="text-align: center;">
+						<p  class="about-me-translate" style="text-align: center;">
 							<a class="btn btn-primary btn-outline btn-polish">View in English</a>
 						</p>
 					</div>
@@ -290,14 +281,12 @@
 			</div>
 		</div>
 	</div>
-
 	<!-- Choral Arrangements -->
 	<div id="fh5co-blog" class="fh5co-section" style="position: sticky; background: #101010 url(../images/broken_noise.png) repeat;">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Choral Arrangements</h2>
-					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, consequatur. Aliquam quaerat pariatur repellendus veniam nemo, saepe, culpa eius aspernatur cumque suscipit quae nobis illo tempora. Eum veniam necessitatibus, blanditiis facilis quidem dolore! Dolorem, molestiae.</p> -->
 				</div>
 			</div>
 			<div class="swiper mySwiper" style="padding: 20px 20px 0 20px;">
@@ -359,7 +348,6 @@
 							<div class="col-md-4">
 								<div class="fh5co-blog animate-box">
 									<div class="blog-text">
-										<!-- <span class="posted_on">Feb. 15th 2016</span> -->
 										<iframe style="height: 140px; width: 100%;" src="https://docs.google.com/file/d/0B_a_Jl7KcsHNWXdWS2lJWElkSms/preview?resourcekey=0-8hMUQUZvJ98gP9OgbqFNNA" width="640" height="480" allow="autoplay" frameborder="0" scrolling="no" seamless=""></iframe>
 										<div class="choral-info">
 											<a href="#"> 
@@ -375,7 +363,6 @@
 							<div class="col-md-4">
 								<div class="fh5co-blog animate-box">
 									<div class="blog-text">
-										<!-- <span class="posted_on">Feb. 15th 2016</span> -->
 										<iframe style="height: 140px; width: 100%;" src="https://docs.google.com/file/d/0B_a_Jl7KcsHNWXdWS2lJWElkSms/preview?resourcekey=0-8hMUQUZvJ98gP9OgbqFNNA" width="640" height="480" allow="autoplay" frameborder="0" scrolling="no" seamless=""></iframe>
 										<div class="choral-info">
 											<a href="#"> 
@@ -391,7 +378,6 @@
 							<div class="col-md-4">
 								<div class="fh5co-blog animate-box">
 									<div class="blog-text">
-										<!-- <span class="posted_on">Feb. 15th 2016</span> -->
 										<iframe style="height: 140px; width: 100%;" src="https://docs.google.com/file/d/0B_a_Jl7KcsHNWXdWS2lJWElkSms/preview?resourcekey=0-8hMUQUZvJ98gP9OgbqFNNA" width="640" height="480" allow="autoplay" frameborder="0" scrolling="no" seamless=""></iframe>
 										<div class="choral-info">
 											<a href="#"> 
@@ -416,7 +402,6 @@
 			</div>
 		</div>
 	</div>
-	
 	<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
@@ -429,72 +414,27 @@
 			</div>
 		</div>
 	</div>
-
 	<footer id="fh5co-footer" role="contentinfo" class="fh5co-section" style="position: sticky; background: #101010 url(../images/broken_noise.png) repeat;">
 		<div class="container">
-			<div class="row row-pb-md">
-				<div class="col-md-4 fh5co-widget">
-					<h4>Matthew Jaskiewicz Music</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-				</div>
-				<div class="col-md-2 col-md-push-1 fh5co-widget">
-					<h4>Links</h4>
-					<ul class="fh5co-footer-links">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Menu</a></li>
-						<li><a href="#">Gallery</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-2 col-md-push-1 fh5co-widget">
-					<h4>Categories</h4>
-					<ul class="fh5co-footer-links">
-						<li><a href="#">Landing Page</a></li>
-						<li><a href="#">Real Estate</a></li>
-						<li><a href="#">Personal</a></li>
-						<li><a href="#">Business</a></li>
-						<li><a href="#">e-Commerce</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-4 col-md-push-1 fh5co-widget">
-					<h4>Contact Information</h4>
-					<ul class="fh5co-footer-links">
-						<li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-						<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-						<li><a href="http://https://freehtml5.co">freehtml5.co</a></li>
-					</ul>
-				</div>
-
-			</div>
-
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
-					</p>
-					<p>
 						<ul class="fh5co-social-icons">
+							<li><a href="https://www.youtube.com/@torontoconcertchoir6438"><i class="icon-youtube2"></i></a></li>
 							<li><a href="#"><i class="icon-twitter2"></i></a></li>
 							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
 						</ul>
+					</p>
+					<p><small id="copyright-text" class="block"></small> 
 					</p>
 				</div>
 			</div>
-
 		</div>
 	</footer>
 	</div>
-
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
 	</div>
-	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -510,7 +450,6 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 	<script src="js/slider.min.js"></script>
-
   		<!-- Initialize Swiper -->
   		<script>
     		var swiper = new Swiper(".mySwiper", {
@@ -538,9 +477,10 @@
 				$('#english-about-me').hide()
 				$('#polish-about-me').show()
 			});
-
+			$('.js-fullheight').css('height', $(window).height());
+			year = new Date().getFullYear()	
+			$('#copyright-text').html('&copy; ' + year + ' by Matthew Jaskiewicz')
   		</script>
-
 	</body>
 </html>
 
