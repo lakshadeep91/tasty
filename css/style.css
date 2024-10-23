@@ -1883,34 +1883,38 @@ body {
   color: rgb(255 255 255 / 0.4);
 }
   @media (max-width: 500px){
-  #fh5co-logo a {
-    font-size: 30px !important;
-  }
-  video {
-    width: auto !important;
-    height: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  #fh5co-header h2 {
-    font-size: 15px !important;
-  }
-  .swiper-slide p {
-    font-size: 13px !important;
-  }
+    #fh5co-logo a {
+      font-size: 30px !important;
+    }
+    video {
+      width: auto !important;
+      height: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #fh5co-header h2 {
+      font-size: 15px !important;
+    }
+    .swiper-slide p {
+      font-size: 13px !important;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      --swiper-navigation-size: 20px;
+    }
   }
   @media (min-width: 501px) and (max-width: 700px){
-  #fh5co-logo a {
-    font-size: 30px !important;
-  }
-  video {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  #fh5co-header h2 {
-    font-size: 17px !important;
-  }
-  .swiper-slide p {
-    font-size: 15px !important;
-  }
+    #fh5co-logo a {
+      font-size: 30px !important;
+    }
+    video {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #fh5co-header h2 {
+      font-size: 17px !important;
+    }
+    .swiper-slide p {
+      font-size: 15px !important;
+    }
   }
