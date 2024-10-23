@@ -1922,3 +1922,7 @@ body {
       --swiper-navigation-size: 20px;
     }
   }
+
+   .p-copyright {
+    margin-bottom: 10px;
+   }
