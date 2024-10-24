@@ -127,10 +127,9 @@
 						</div>
 						<div class="row form-group">
 							<div class="col-md-12">
-								<input type="submit" class="btn btn-primary btn-outline btn-lg" value="Submit Form">
+								<input id="submit-form" type="submit" class="btn btn-primary btn-outline btn-lg" value="Submit Form">
 							</div>
 						</div>
-
 					</form>
 				</div>
 			</div>
@@ -174,7 +173,25 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
+	<script>
+		$('#submit-form').click(function() {
+			data = {
+				"name": "Lakshadeep Adhav",
+				"email": "lakshadeep4u@gmail.com",
+				"phone": "9878987898",
+				"message": "this is demo message"
+			}
+			$.ajax({
+				type: "POST",
+				url: "https://e5v06go5n5.execute-api.us-east-1.amazonaws.com/dev",
+				data: data,
+				crossDomain: true,
+				contentType: "application/json" 
+				// success: success,
+				// dataType: dataType
+			});
+		})
+	</script>
 	</body>
 </html>
 
