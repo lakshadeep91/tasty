@@ -110,7 +110,7 @@
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label for="phone">Phone</label>
-								<input type="text" class="form-control" id="email">
+								<input type="text" class="form-control" id="phone">
 							</div>
 						</div>
 						<div class="row form-group">
@@ -175,30 +175,26 @@
 	<script src="js/main.js"></script>
 	<script>
 		$('#submit-form').click(function() {
-			console.log('ajax');
 			data = {
-				"name": "Lakshadeep Adhav",
-				"email": "lakshadeep4u@gmail.com",
-				"phone": "9878987898",
-				"message": "this is demo message"
+				"name": $("#name").val(),
+				"email": $("#email").val(),
+				"phone": $("#phone").val(),
+				"message": $("#message").val()
 			}
 			$.ajax({
 				type: "POST",
-				url: "https://e5v06go5n5.execute-api.us-east-1.amazonaws.com/dev",
-				data: data,
-				dataType: "json",
+				url: "https://8ev87vf506.execute-api.us-east-1.amazonaws.com/dev",
+				data: JSON.stringify(data),
+				dataType: 'json',
 				crossDomain: true,
 				contentType: "application/json",
-				success: function (response) {
-					var resp = JSON.parse(response)
-					alert(resp.status);
-				},
-				error: function (xhr, status) {
-					alert("error");
+				success: function(response){
+					if(response.statusCode === 200) {
+						alert("Message sent successfully!")
+				    } else {
+						alert("Message wasn't sent due to server issue. Please try 'Contact us' button")
+				    }
 				}
-
-				// success: success,
-				// dataType: dataType
 			});
 		})
 	</script>
