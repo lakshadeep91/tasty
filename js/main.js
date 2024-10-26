@@ -345,7 +345,7 @@
 		$('#copyright-text').html('&copy; ' + year + ' by Matthew Jaskiewicz')
 	});	
 	$('.js-fullheight').css('height', $(window).height());
-	$('#fh5co-header .display-tc').css('padding-top', $('.fh5co-nav').height() + 32);
+	// $('#fh5co-header .display-tc').css('padding-top', $('.fh5co-nav').height() + 32);
 
 	// var swiper = new Swiper(".mySwiper", {
 	// slidesPerView: 1,
