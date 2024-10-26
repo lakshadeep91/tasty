@@ -175,6 +175,8 @@
 	<script src="js/main.js"></script>
 	<script>
 		$('#submit-form').click(function() {
+			// TODO: Remove return on deployment
+			return
 			data = {
 				"name": $("#name").val(),
 				"email": $("#email").val(),
