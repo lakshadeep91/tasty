@@ -186,8 +186,17 @@
 				type: "POST",
 				url: "https://e5v06go5n5.execute-api.us-east-1.amazonaws.com/dev",
 				data: data,
+				dataType: "json",
 				crossDomain: true,
-				contentType: "application/json" 
+				contentType: "application/json",
+				success: function (response) {
+					var resp = JSON.parse(response)
+					alert(resp.status);
+				},
+				error: function (xhr, status) {
+					alert("error");
+				}
+
 				// success: success,
 				// dataType: dataType
 			});
