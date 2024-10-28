@@ -1940,3 +1940,11 @@ body {
 .p-copyright {
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 992px) {
+  .fh5co-heading h2,
+  .fh5co-heading p  {
+    text-align: center;
+  }
+
+}
