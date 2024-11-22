@@ -217,6 +217,7 @@
 	<script>
 		$('#submit-form').click(function() {
 			// TODO: Remove return on deployment
+			location.reload();
 			return
 			data = {
 				"name": $("#name").val(),
@@ -234,6 +235,7 @@
 				success: function(response){
 					if(response.statusCode === 200) {
 						alert("Message sent successfully!")
+						location.reload();
 				    } else {
 						alert("Message wasn't sent due to server issue. Please try 'Contact us' button")
 				    }
