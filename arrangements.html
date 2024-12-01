@@ -127,9 +127,9 @@
 					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, consequatur. Aliquam quaerat pariatur repellendus veniam nemo, saepe, culpa eius aspernatur cumque suscipit quae nobis illo tempora. Eum veniam necessitatibus, blanditiis facilis quidem dolore! Dolorem, molestiae.</p> -->
 				</div>
 			</div>
-			<!-- <div style="text-align: right; margin: 20px 0;">
+			<div style="text-align: right; margin: 20px 0;">
 				<input type="search" id="search-box" name="q" placeholder="Search Arrangements"/>
-			</div> -->
+			</div>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
@@ -156,12 +156,15 @@
 					<div class="fh5co-blog animate-box">
 						<div class="blog-text">
 							<!-- <span class="posted_on">Feb. 15th 2016</span> -->
-							<iframe src="https://docs.google.com/file/d/0B_a_Jl7KcsHNWXdWS2lJWElkSms/preview?resourcekey=0-8hMUQUZvJ98gP9OgbqFNNA" width="640" height="480" allow="autoplay" frameborder="0" scrolling="no" seamless=""></iframe>
 							<div class="choral-info">
 								<a href="#"> 
 									<h3>Fryderyk Chopin</h3>
 									<h3>Sliczny chlopiec</h3>
 								</a>
+							 <audio controls>
+								<source src="audio/sample1.mp3" type="audio/mpeg">
+								Your browser does not support the audio element.
+							</audio>
 								<p>S, vl solo, smal orch</p>
 								<p style="text-align: center;"><a href="#" class="btn btn-primary btn-outline">Music Sheet</a></p>
 							</div>
@@ -337,13 +340,19 @@
       })
       .listen('[data-trigger="zoomerang"]')
 
-	//   $(document).ready(function() {
-	// 	$().text
-	//   });
 	  jQuery('#search-box').on('input', function() {
-			text = $('#search-box').val()
-			$(".choral-info:contains('" + text + "')").hide();
+			textsearch = $('#search-box').val()
+			$(".blog-text").parent().parent().hide()
+			$(".blog-text h3").each(function(index) {
+				element_text = $(this).text().toLowerCase()
+				if(element_text.indexOf(textsearch) >= 0) {
+					console.log("found")
+					$(this).parent().parent().parent().parent().parent().show()
+				}
+				console.log($(this).text().toLowerCase());
+			});
 		});
+
 	</script>
 
 	</body>
