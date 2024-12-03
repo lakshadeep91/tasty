@@ -314,23 +314,24 @@
 				</div>
 				<div class="panel panel-default song-card">
 					<div class="panel-heading" role="tab" id="headingTwo">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-6 col-sm-12 song-name">
-									<span>Kevin MacLeod | Canon in D Lorem Ipsum</span>
-								</div>
-								<div class="col-md-5 col-sm-12 audio-player">
-									<audio controls>
-										<source src="audio/sample1.mp3" type="audio/mpeg">
-										Your browser does not support the audio element.
-									</audio>
-								</div>
-								<div class="col-md-1 col-sm-12 expand">
-									<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"><i class="icon-arrow-down22"></i></a>
+						<h4 class="panel-title">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-6 col-sm-12 song-name">
+										<span>Kevin MacLeod | Canon in D Lorem Ipsum</span>
+									</div>
+									<div class="col-md-5 col-sm-12 audio-player">
+										<audio controls>
+											<source src="audio/sample1.mp3" type="audio/mpeg">
+											Your browser does not support the audio element.
+										</audio>
+									</div>
+									<div class="col-md-1 col-sm-12 expand">
+										<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"><i class="icon-arrow-down22"></i></a>
+									</div>
 								</div>
 							</div>
-						</div>
-					</h4>
+						</h4>
 					</div>
 					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 						<div class="panel-body">
@@ -469,16 +470,35 @@
 
 	  jQuery('#search-box').on('input', function() {
 			textsearch = $('#search-box').val()
-			$(".blog-text").parent().parent().hide()
-			$(".blog-text h3").each(function(index) {
+			if(textsearch == "") {
+				$(".song-card").show()
+				return true;
+			}
+			$(".song-card").hide()
+			$(".song-name span").each(function(index) {
 				element_text = $(this).text().toLowerCase()
+				console.log(element_text)
 				if(element_text.indexOf(textsearch) >= 0) {
 					console.log("found")
-					$(this).parent().parent().parent().parent().parent().show()
+					$(this).parent().parent().parent().parent().parent().parent().show()
 				}
-				console.log($(this).text().toLowerCase());
 			});
 		});
+		var getUrlParameter = function getUrlParameter(sParam) {
+			var sPageURL = window.location.search.substring(1),
+				sURLVariables = sPageURL.split('&'),
+				sParameterName,
+				i;
+
+			for (i = 0; i < sURLVariables.length; i++) {
+				sParameterName = sURLVariables[i].split('=');
+
+				if (sParameterName[0] === sParam) {
+					return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+				}
+			}
+			return false;
+		};
 
 	</script>
 
