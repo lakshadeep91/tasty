@@ -1959,8 +1959,81 @@ body {
 }
 
 audio {
-    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
-    width: 100%;
-    height: 25px;
-    background-color: #fff;
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 100%;
+  height: 25px;
+  background-color: #fff;
+}
+
+.song-card .panel-heading {
+  background-color: #2f2f2f;
+  color: #fff;
+  border-radius: 0;
+  padding: 15px 0;
+}
+
+.song-card.panel {
+  border: none;
+}
+
+.song-card .panel-body {
+  padding: 0 10px;
+  font-size: 15px;
+  color: #000;
+  background: #dddddd;
+  border: none !important;
+}
+.song-card .panel-body .btn-view-pdf {
+  padding: 0px 10px 20px 10px;
+  height: 20px;
+  font-size: 15px;
+}
+
+.song-card .panel-body .music-sheet {
+  padding-top: 5px;
+}
+
+.song-card .panel-body .music-sheet span {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.song-card .panel-body .view-music-sheet {
+  padding-top: 5px;
+  text-align: right;
+}
+
+.song-card .panel-body .row {
+  border-bottom: 1px solid #bbb;
+  margin: 0;
+}
+
+.song-card hr {
+  margin: 10px 0;
+  border-top: 1px solid #a9a9a9;
+}
+
+.song-card .audio-player {
+  text-align: center;
+}
+
+@media (max-width: 992px){
+  .song-card .song-name {
+    text-align: center;
+  }
+
+}
+
+.song-card a.expand {
+  margin: 20px;
+}
+
+.song-card span {
+  vertical-align: super;
+  margin: 0 50px 0 0;
+  font-size: 20px;
+}
+
+.song-card audio {
+    max-width: 80%;
 }
