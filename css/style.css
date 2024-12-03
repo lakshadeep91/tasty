@@ -2018,14 +2018,11 @@ audio {
 }
 
 @media (max-width: 992px){
-  .song-card .song-name {
+  .song-card .song-name,
+  .song-card .expand {
     text-align: center;
   }
 
-}
-
-.song-card a.expand {
-  margin: 20px;
 }
 
 .song-card span {
