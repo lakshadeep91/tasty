@@ -478,7 +478,7 @@
 				console.log(element_text)
 				if(element_text.indexOf(textsearch) >= 0) {
 					console.log("found")
-					$(this).parent().parent().parent().parent().parent().parent().show()
+					$(this).closest(".song-card").show()
 				}
 			});
 		});
