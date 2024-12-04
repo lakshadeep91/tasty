@@ -336,7 +336,6 @@
 	});	
 	$('.js-fullheight').css('height', $(window).height());
 	$('.modal iframe').css('height', $(window).height() - 250);
-	$(".biography").hide()
 	var getUrlParameter = function getUrlParameter(sParam) {
 		var sPageURL = window.location.search.substring(1),
 			sURLVariables = sPageURL.split('&'),
@@ -353,11 +352,11 @@
 		return false;
 	};
 	var lang = getUrlParameter("lang")
+	$(".biography").hide()
 	if(lang === "pol") {
 		$(".bio-polish").show()
 	} else {
 		$(".bio-english").show()
-
 	}
 
 
