@@ -1958,6 +1958,27 @@ body {
   font-size: 18px;
 }
 
+.arrangmenet-nav span {
+  font-size: 20px;
+}
+
+.arrangmenet-nav .container {
+  width: 100%;
+}
+
+.arrangmenet-nav .menu-item.active {
+  background-color: #2f2f2f;
+}
+
+.arrangmenet-nav .menu-item:hover {
+  background-color: #2f2f2f;
+}
+
+.arrangmenet-nav .menu-item {
+  text-align: center;
+}
+
+
 audio {
   filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
   width: 100%;
@@ -1972,18 +1993,26 @@ audio {
   padding: 15px 0;
 }
 
+.song-card .panel-heading a {
+  font-size: 25px;
+  color: #656565;
+}
+
 .song-card.panel {
   border: none;
 }
 
 .song-card .panel-body {
+  color: #c5c5c5;
   padding: 0 10px;
   font-size: 15px;
-  color: #000;
-  background: #dddddd;
+  background: #393939;
   border: none !important;
 }
+
 .song-card .panel-body .btn-view-pdf {
+  background-color: #933235;;
+  border: 2px solid #933235;
   padding: 0px 10px 20px 10px;
   height: 20px;
   font-size: 15px;
@@ -2004,7 +2033,7 @@ audio {
 }
 
 .song-card .panel-body .row {
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid #2b2b2b;
   margin: 0;
 }
 
@@ -2022,7 +2051,6 @@ audio {
   .song-card .expand {
     text-align: center;
   }
-
 }
 
 .song-card span {
