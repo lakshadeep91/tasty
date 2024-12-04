@@ -135,22 +135,22 @@
 				<div class="container">
 					<div class="row">
 						<a href="#">
-							<div class="col-lg-3 menu-item active">
+							<div class="col-lg-3 menu-item active animate-box fadeInUp animated-fast">
 								<span>Polish Secular Music</span>
 							</div>
 						</a>
 						<a href="#">
-							<div class="col-lg-3 menu-item">
+							<div class="col-lg-3 menu-item animate-box fadeInUp animated-fast">
 								<span>Polish Church Music</span>
 							</div>
 						</a>
 						<a href="#">
-							<div class="col-lg-3 menu-item">
+							<div class="col-lg-3 menu-item animate-box fadeInUp animated-fast">
 								<span>International Secular Music</span>
 							</div>
 						</a>
 						<a href="#">
-							<div class="col-lg-3 menu-item">
+							<div class="col-lg-3 menu-item animate-box fadeInUp animated-fast">
 								<span>International Church Music</span>
 							</div>
 						</a>
@@ -264,7 +264,7 @@
 			</div> -->
 			
 			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-				<div class="panel panel-default song-card">
+				<div class="panel panel-default song-card animate-box fadeInUp animated-fast">
 					<div class="panel-heading" role="tab" id="headingOne">
 					<h4 class="panel-title">
 						<div class="container">
@@ -308,13 +308,13 @@
 									<span>File 1 bla bla bla bla bla bla bla bla</span>
 								</div>
 								<div class="col-md-6 col-sm-12 view-music-sheet">
-									<a href="#" class="btn btn-primary btn-view-pdf" data-toggle="modal" data-target="#myModal">Music Sheet</a>
+									<a href="#" class="btn btn-primary btn-view-pdf"><i class="icon-mail"></i></a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="panel panel-default song-card">
+				<div class="panel panel-default song-card animate-box fadeInUp animated-fast">
 					<div class="panel-heading" role="tab" id="headingTwo">
 						<h4 class="panel-title">
 							<div class="container">
@@ -358,13 +358,13 @@
 									<span>File 1 bla bla bla bla bla bla bla bla</span>
 								</div>
 								<div class="col-md-6 col-sm-12 view-music-sheet">
-									<a href="#" class="btn btn-primary btn-view-pdf" data-toggle="modal" data-target="#myModal">Music Sheet</a>
+									<a href="#" class="btn btn-primary btn-view-pdf"><i class="icon-mail"></i></a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="panel panel-default song-card">
+				<div class="panel panel-default song-card animate-box fadeInUp animated-fast">
 					<div class="panel-heading" role="tab" id="headingThree">
 						<h4 class="panel-title">
 							<div class="container">
@@ -453,7 +453,7 @@
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<button type="button" class="close" style="font-size: 70px; line-height: 15px;" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
 			</div>
 			<div class="modal-body">
@@ -470,7 +470,7 @@
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<button type="button" class="close" style="font-size: 70px; line-height: 15px;" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
 				</div>
 				<div class="modal-body">
@@ -531,24 +531,7 @@
 				}
 			});
 		});
-		var getUrlParameter = function getUrlParameter(sParam) {
-			var sPageURL = window.location.search.substring(1),
-				sURLVariables = sPageURL.split('&'),
-				sParameterName,
-				i;
-
-			for (i = 0; i < sURLVariables.length; i++) {
-				sParameterName = sURLVariables[i].split('=');
-
-				if (sParameterName[0] === sParam) {
-					return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
-				}
-			}
-			return false;
-		};
-
 	</script>
-
 	</body>
 </html>
 

@@ -331,21 +331,36 @@
 		// zoomFunc();
 	});
 	$(document).ready(function() {
-
-		$('.btn-polish').click(function () {
-			console.log
-			$('#polish-about-me').hide()
-			$('#english-about-me').show()
-		});
-		$('.btn-english').click(function () {
-			$('#english-about-me').hide()
-			$('#polish-about-me').show()
-		});
 		const year = new Date().getFullYear();
 		$('#copyright-text').html('&copy; ' + year + ' by Matthew Jaskiewicz')
 	});	
 	$('.js-fullheight').css('height', $(window).height());
 	$('.modal iframe').css('height', $(window).height() - 250);
+	$(".biography").hide()
+	var getUrlParameter = function getUrlParameter(sParam) {
+		var sPageURL = window.location.search.substring(1),
+			sURLVariables = sPageURL.split('&'),
+			sParameterName,
+			i;
+
+		for (i = 0; i < sURLVariables.length; i++) {
+			sParameterName = sURLVariables[i].split('=');
+
+			if (sParameterName[0] === sParam) {
+				return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+			}
+		}
+		return false;
+	};
+	var lang = getUrlParameter("lang")
+	if(lang === "pol") {
+		$(".bio-polish").show()
+	} else {
+		$(".bio-english").show()
+
+	}
+
+
 	// $('#fh5co-header .display-tc').css('padding-top', $('.fh5co-nav').height() + 32);
 
 	// var swiper = new Swiper(".mySwiper", {
