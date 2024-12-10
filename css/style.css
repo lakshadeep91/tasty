@@ -2015,12 +2015,29 @@ audio {
   border: none !important;
 }
 
-.song-card .panel-body .btn-view-pdf {
-  background-color: #933235;;
-  border: 2px solid #933235;
-  padding: 0px 10px 20px 10px;
-  height: 20px;
-  font-size: 15px;
+.song-card .panel-body .btn-view-music-sheet {
+  filter: invert(1);
+  opacity: 0.7;
+}
+
+.song-card .panel-body .btn-view-music-sheet:hover {
+  opacity: 1;
+
+}
+
+.song-card .panel-body .btn-view-music-sheet img {
+  height: 25px;
+}
+
+.song-card .panel-body .btn-paid-music-sheet {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 21px;
+}
+
+
+.song-card .panel-body .btn-paid-music-sheet:hover {
+  opacity: 1;
 }
 
 .song-card .panel-body .music-sheet {
@@ -2060,5 +2077,56 @@ audio {
 }
 
 .song-card audio {
-    max-width: 80%;
+  max-width: 80%;
+}
+
+.collapse-arrow img {
+  filter: invert(1);
+  opacity: 0.3;
+  height: 20px;
+}
+
+.collapse-arrow img{
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+.collapse-arrow.collapsed img{
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+
+.collapse-arrow img:hover {
+  filter: invert(1);
+  opacity: 0.5;
+  height: 20px;
+}
+
+.modal-content {
+  background-color: #2f2f2f;
+}
+
+.modal-title {
+  color: #fff;
+}
+
+.modal-header {
+  border-bottom: #505050;
+}
+
+.modal-header button.close {
+  color: #fff;
+}
+
+.modal-body iframe {
+  border: none;
+}
+
+.modal-footer {
+  border-top: #505050;
 }
