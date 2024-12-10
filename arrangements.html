@@ -458,13 +458,13 @@
 			for(var j=0; j<visible_files.length; j++) {
 				file_name = visible_files[j]["name"]
 				file_url = visible_files[j]["url"]
-				visible_music_sheets = visible_music_sheets + '<div class="row"><div class="col-md-6 col-sm-12 music-sheet"><span>' + file_name + '</span></div><div class="col-md-6 col-sm-12 view-music-sheet"><a href="#" data="' + file_url + '" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet"><img src="images/music-sheet.png"/></a></div></div>'
+				visible_music_sheets = visible_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" data="' + file_url + '" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet"><img src="images/music-sheet.png"/></a></div></div>'
 			}
 		}
 		if(protected_files) {
 			for(var j=0; j<protected_files.length; j++) {
 				file_name = protected_files[j]["name"]
-				protected_music_sheets = protected_music_sheets + '<div class="row"><div class="col-md-6 col-sm-12 music-sheet"><span>' + file_name + '</span></div><div class="col-md-6 col-sm-12 view-music-sheet"><a href="#" class="btn-paid-music-sheet"><i class="icon-mail"></i></a></div></div>'
+				protected_music_sheets = protected_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" class="btn-paid-music-sheet"><img src="images/mail.png"/></a></div></div>'
 			}
 		}
 		var collapse_in = ''

@@ -2029,16 +2029,21 @@ audio {
   height: 25px;
 }
 
-.song-card .panel-body .btn-paid-music-sheet {
-  color: #fff;
-  opacity: 0.7;
-  font-size: 21px;
-}
-
-
 .song-card .panel-body .btn-paid-music-sheet:hover {
   opacity: 1;
 }
+
+.song-card .panel-body .btn-paid-music-sheet {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.song-card .panel-body .btn-paid-music-sheet img {
+  filter: invert(1);
+  height: 17px;
+}
+
+
 
 .song-card .panel-body .music-sheet {
   padding-top: 5px;
