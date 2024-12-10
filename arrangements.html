@@ -371,6 +371,7 @@
 			"title": "Canon In D",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
 			"files": [
 				{
 					"name": "File 1 bla bla bla bla",
@@ -386,13 +387,14 @@
 					"name": "File 3 bla bla bla bla",
 					"type": "PROTECTED",
 					"url": ""
-				},	
+				},
 			]
 		},
 		{
 			"title": "My heart will go on",
 			"artist": "Celine Dion",
 			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
 			"files": [
 				{
 					"name": "File 1 bla bla bla bla",
@@ -408,13 +410,14 @@
 					"name": "File 3 bla bla bla bla",
 					"type": "PROTECTED",
 					"url": ""
-				},	
+				},
 			]
 		},
 		{
 			"title": "Symphony No. 40",
 			"artist": "Wolfgang Amadeus Mozart",
 			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
 			"files": [
 				{
 					"name": "File 1 bla bla bla bla",
@@ -430,19 +433,127 @@
 					"name": "File 3 bla bla bla bla",
 					"type": "PROTECTED",
 					"url": ""
-				},	
+				},
+			]
+		},
+		{
+			"title": "Symphony No. 3, Eroica",
+			"artist": "Ludwig van Beethoven",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_CHURCH",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"url": "https://drive.google.com/file/d/1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n/preview"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"url": "https://drive.google.com/file/d/1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n/preview"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"title": "Pastoral Symphony, or Recollections of Country Life",
+			"artist": "Ludwig van Beethoven",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_CHURCH",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"url": "https://drive.google.com/file/d/1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n/preview"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"url": "https://drive.google.com/file/d/1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n/preview"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"title": "Five violin concertos and one without solo",
+			"artist": "Antonio Vivaldi",
+			"song_url": "audio/sample1.mp3",
+			"type": "INTERNATIONAL_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"url": "https://drive.google.com/file/d/1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n/preview"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"url": "https://drive.google.com/file/d/1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n/preview"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"title": "Six violin concertos",
+			"artist": "Antonio Vivaldi",
+			"song_url": "audio/sample1.mp3",
+			"type": "INTERNATIONAL_CHURCH",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"url": "https://drive.google.com/file/d/1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n/preview"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"url": "https://drive.google.com/file/d/1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n/preview"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"url": ""
+				},
 			]
 		}
-
 	  ]
 	  for (var i=0; i<songs_data.length; i++) {
-		song_name = songs_data[i]["title"]
-		artist_name = songs_data[i]["artist"]
+		var visible_files = []
+		var protected_files = []
+		var visible_music_sheets = ''
+		var protected_music_sheets = ''
+		var collapse_in = ''
+		var collapsed_flag = ''
 
-		visible_files = []
-		protected_files = []
-		song_url = songs_data[i]["song_url"]
-		files = songs_data[i]["files"]
+		var song_name = songs_data[i]["title"]
+		var artist_name = songs_data[i]["artist"]
+		var song_url = songs_data[i]["song_url"]
+		var active_tab = $(".arrangmenet-nav .active span").text()
+		var files = songs_data[i]["files"]
+		var song_type = songs_data[i]["type"]
+		if (active_tab === "Polish Secular Music" && song_type === "POLISH_SECULAR") {
+			x = 1
+		} else if (active_tab === "Polish Church Music" && song_type === "POLISH_CHURCH") {
+			x = 1
+		} else if (active_tab === "International Secular Music" && song_type === "INTERNATIONAL_SECULAR") {
+			x = 1
+		} else if (active_tab === "International Church Music" && song_type === "INTERNATIONAL_CHURCH") {
+			x = 1
+		} else {
+			continue
+		}
 		for (var j=0; j<files.length; j++) {
 			if(files[j]["type"] === "VISIBLE") {
 				visible_files.push(files[j])
@@ -451,9 +562,6 @@
 				protected_files.push(files[j])
 			}
 		}
-		visible_music_sheets = ''
-		protected_music_sheets = ''
-
 		if(visible_files) {
 			for(var j=0; j<visible_files.length; j++) {
 				file_name = visible_files[j]["name"]
@@ -463,12 +571,10 @@
 		}
 		if(protected_files) {
 			for(var j=0; j<protected_files.length; j++) {
-				file_name = protected_files[j]["name"]
+				var file_name = protected_files[j]["name"]
 				protected_music_sheets = protected_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" class="btn-paid-music-sheet"><img src="images/mail.png"/></a></div></div>'
 			}
 		}
-		var collapse_in = ''
-		var collapsed_flag = ''
 		if(i == 0) {
 			collapse_in = 'in'
 		}
