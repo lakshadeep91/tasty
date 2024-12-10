@@ -2115,6 +2115,7 @@ audio {
 }
 
 .collapse-arrow img {
+  transition: all .2s ease-out;
   filter: invert(1);
   opacity: 0.3;
   height: 15px;
