@@ -2070,6 +2070,10 @@ audio {
   }
 }
 
+.song-card .expand {
+  padding-left: 19px;
+}
+
 .song-card .song-name span {
   margin-right: 10px;
 }
@@ -2092,7 +2096,7 @@ audio {
 .collapse-arrow img {
   filter: invert(1);
   opacity: 0.3;
-  height: 20px;
+  height: 15px;
 }
 
 .collapse-arrow img{
@@ -2113,7 +2117,6 @@ audio {
 .collapse-arrow img:hover {
   filter: invert(1);
   opacity: 0.5;
-  height: 20px;
 }
 
 .modal-content {
