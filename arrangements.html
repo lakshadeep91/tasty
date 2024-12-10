@@ -131,7 +131,7 @@
 
 
 
-			<div class="arrangmenet-nav">
+			<div class="arrangement-nav">
 				<div class="container">
 					<div class="row">
 						<a href="#">
@@ -365,7 +365,6 @@
         bgOpacity: .85
       })
       .listen('[data-trigger="zoomerang"]')
-
 	  songs_data = [
 		{
 			"title": "Canon In D",
@@ -529,62 +528,69 @@
 			]
 		}
 	  ]
-	  for (var i=0; i<songs_data.length; i++) {
-		var visible_files = []
-		var protected_files = []
-		var visible_music_sheets = ''
-		var protected_music_sheets = ''
-		var collapse_in = ''
-		var collapsed_flag = ''
+	  function buildSongCards() {
+		$('.panel-group').html('');
+		var is_first_item = true;
+		for (var i=0; i<songs_data.length; i++) {
+			var visible_files = [];
+			var protected_files = [];
+			var visible_music_sheets = '';
+			var protected_music_sheets = '';
+			var collapse_in = '';
+			var collapsed_flag = '';
 
-		var song_name = songs_data[i]["title"]
-		var artist_name = songs_data[i]["artist"]
-		var song_url = songs_data[i]["song_url"]
-		var active_tab = $(".arrangmenet-nav .active span").text()
-		var files = songs_data[i]["files"]
-		var song_type = songs_data[i]["type"]
-		if (active_tab === "Polish Secular Music" && song_type === "POLISH_SECULAR") {
-			x = 1
-		} else if (active_tab === "Polish Church Music" && song_type === "POLISH_CHURCH") {
-			x = 1
-		} else if (active_tab === "International Secular Music" && song_type === "INTERNATIONAL_SECULAR") {
-			x = 1
-		} else if (active_tab === "International Church Music" && song_type === "INTERNATIONAL_CHURCH") {
-			x = 1
-		} else {
-			continue
-		}
-		for (var j=0; j<files.length; j++) {
-			if(files[j]["type"] === "VISIBLE") {
-				visible_files.push(files[j])
+			var song_name = songs_data[i]["title"];
+			var artist_name = songs_data[i]["artist"];
+			var song_url = songs_data[i]["song_url"];
+			var active_tab = $(".arrangement-nav .active span").text();
+			var files = songs_data[i]["files"];
+			var song_type = songs_data[i]["type"];
+			if (active_tab === "Polish Secular Music" && song_type === "POLISH_SECULAR") {
+				x = 1;
+			} else if (active_tab === "Polish Church Music" && song_type === "POLISH_CHURCH") {
+				x = 1;
+			} else if (active_tab === "International Secular Music" && song_type === "INTERNATIONAL_SECULAR") {
+				x = 1;
+			} else if (active_tab === "International Church Music" && song_type === "INTERNATIONAL_CHURCH") {
+				x = 1;
+			} else {
+				continue;
 			}
-			else if(files[j]["type"] === "PROTECTED") {
-				protected_files.push(files[j])
+			for (var j=0; j<files.length; j++) {
+				if(files[j]["type"] === "VISIBLE") {
+					visible_files.push(files[j]);
+				}
+				else if(files[j]["type"] === "PROTECTED") {
+					protected_files.push(files[j]);
+				}
 			}
-		}
-		if(visible_files) {
-			for(var j=0; j<visible_files.length; j++) {
-				file_name = visible_files[j]["name"]
-				file_url = visible_files[j]["url"]
-				visible_music_sheets = visible_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" data="' + file_url + '" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet"><img src="images/music-sheet.png"/></a></div></div>'
+			if(visible_files) {
+				for(var j=0; j<visible_files.length; j++) {
+					file_name = visible_files[j]["name"];
+					file_url = visible_files[j]["url"];
+					visible_music_sheets = visible_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" data="' + file_url + '" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet"><img src="images/music-sheet.png"/></a></div></div>';
+				}
 			}
-		}
-		if(protected_files) {
-			for(var j=0; j<protected_files.length; j++) {
-				var file_name = protected_files[j]["name"]
-				protected_music_sheets = protected_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" class="btn-paid-music-sheet"><img src="images/mail.png"/></a></div></div>'
+			if(protected_files) {
+				for(var j=0; j<protected_files.length; j++) {
+					var file_name = protected_files[j]["name"];
+					protected_music_sheets = protected_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" class="btn-paid-music-sheet"><img src="images/mail.png"/></a></div></div>';
+				}
 			}
+			if(is_first_item) {
+				collapse_in = 'in';
+			}
+			else {
+				collapsed_flag = 'collapsed';
+			}
+			song_card = '<div class="panel panel-default song-card animate-box fadeInUp animated-fast"><div class="panel-heading" role="tab" id="headingOne"><h4 class="panel-title"><div class="container"><div class="row"><div class="col-md-6 col-sm-12 song-name"><span class="song">' + song_name + '</span><span class="artist">' + artist_name + '</span></div><div class="col-md-5 col-sm-12 audio-player"><audio controls><source src="' + song_url + '" type="audio/mpeg">Your browser does not support the audio element.</audio></div><div class="col-md-1 col-sm-12 expand"><a class="collapse-arrow ' + collapsed_flag + '" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '" aria-expanded="true" aria-controls="collapse' + i + '"><img src="images/down-arrow.png"/></a></div></div></div></h4></div><div id="collapse' + i + '" class="panel-collapse collapse ' + collapse_in + '" role="tabpanel" aria-labelledby="headingOne"><div class="panel-body">' + visible_music_sheets + protected_music_sheets + '</div></div></div>';
+			$(".panel-group").append(song_card)
+			is_first_item = false;
 		}
-		if(i == 0) {
-			collapse_in = 'in'
-		}
-		else {
-			collapsed_flag = 'collapsed'
+	  }
 
-		}
-		song_card = '<div class="panel panel-default song-card animate-box fadeInUp animated-fast"><div class="panel-heading" role="tab" id="headingOne"><h4 class="panel-title"><div class="container"><div class="row"><div class="col-md-6 col-sm-12 song-name"><span class="song">' + song_name + '</span><span class="artist">' + artist_name + '</span></div><div class="col-md-5 col-sm-12 audio-player"><audio controls><source src="' + song_url + '" type="audio/mpeg">Your browser does not support the audio element.</audio></div><div class="col-md-1 col-sm-12 expand"><a class="collapse-arrow ' + collapsed_flag + '" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '" aria-expanded="true" aria-controls="collapse' + i + '"><img src="images/down-arrow.png"/></a></div></div></div></h4></div><div id="collapse' + i + '" class="panel-collapse collapse ' + collapse_in + '" role="tabpanel" aria-labelledby="headingOne"><div class="panel-body">' + visible_music_sheets + protected_music_sheets + '</div></div></div>'
-		$(".panel-group").append(song_card)
-	}
+	  buildSongCards();
+
 
 	  jQuery('#search-box').on('input', function() {
 			textsearch = $('#search-box').val()
@@ -599,6 +605,13 @@
 					$(this).closest(".song-card").show()
 				}
 			});
+		});
+
+		$('.arrangement-nav .menu-item').click(function() {
+			$('#search-box').val('');
+			$('.arrangement-nav .menu-item.active').removeClass('active');
+			$(this).addClass('active');
+			buildSongCards();
 		});
 	</script>
 	</body>

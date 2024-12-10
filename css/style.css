@@ -1958,24 +1958,24 @@ body {
   font-size: 18px;
 }
 
-.arrangmenet-nav span {
+.arrangement-nav span {
   color: #c3c3c3;
   font-size: 21px;
 }
 
-.arrangmenet-nav .container {
+.arrangement-nav .container {
   width: 100%;
 }
 
-.arrangmenet-nav .menu-item.active {
+.arrangement-nav .menu-item.active {
   background-color: #2f2f2f;
 }
 
-.arrangmenet-nav .menu-item:hover {
+.arrangement-nav .menu-item:hover {
   background-color: #2f2f2f;
 }
 
-.arrangmenet-nav .menu-item {
+.arrangement-nav .menu-item {
   text-align: center;
 }
 
