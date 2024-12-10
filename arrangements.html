@@ -135,12 +135,12 @@
 				<div class="container">
 					<div class="row">
 						<a href="#">
-							<div class="col-lg-3 menu-item active animate-box fadeInUp animated-fast">
+							<div class="col-lg-3 menu-iteme animate-box fadeInUp animated-fast">
 								<span>Polish Secular Music</span>
 							</div>
 						</a>
 						<a href="#">
-							<div class="col-lg-3 menu-item animate-box fadeInUp animated-fast">
+							<div class="active col-lg-3 menu-item animate-box fadeInUp animated-fast">
 								<span>Polish Church Music</span>
 							</div>
 						</a>
@@ -270,7 +270,12 @@
 							<div class="container">
 								<div class="row">
 									<div class="col-md-6 col-sm-12 song-name">
-										<span>Kevin MacLeod | Canon in D</span>
+										<span class="song">
+											Canon In D
+										</span>
+										<span class="artist">
+											Kevin MacLeod
+										</span>
 									</div>
 									<div class="col-md-5 col-sm-12 audio-player">
 										<audio controls>
@@ -538,6 +543,37 @@
         bgOpacity: .85
       })
       .listen('[data-trigger="zoomerang"]')
+
+	  songs_data = [
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"url": ""
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"url": ""
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"url": ""
+				}
+			]
+		}
+	  ]
+	  song_card = '<>'
+	  song_card_body = '<div class="row"><div class="col-md-6 col-sm-12 music-sheet"><span></span></div><div class="col-md-6 col-sm-12 view-music-sheet"><a href="#" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet"><img src="images/music-sheet.png"></a></div></div>'
+	  view_music_sheet = '<a href="#" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet"><img src="images/music-sheet.png"></a>'
+	  protected_music_sheet = '<a href="#" class="btn-paid-music-sheet"><i class="icon-mail"></i></a>'
+	  $(".song-card").html();
+
 
 	  jQuery('#search-box').on('input', function() {
 			textsearch = $('#search-box').val()

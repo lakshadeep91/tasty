@@ -2070,6 +2070,15 @@ audio {
   }
 }
 
+.song-card .song-name span {
+  margin-right: 10px;
+}
+
+.song-card .song-name span.artist {
+  color: #bdbdbd;
+  font-style: italic;
+}
+
 .song-card span {
   vertical-align: super;
   margin: 0 50px 0 0;
