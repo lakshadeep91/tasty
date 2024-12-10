@@ -326,7 +326,7 @@
 					<h4 class="modal-title" id="myModalLabel">Music Sheet</h4>
 				</div>
 				<div class="modal-body">
-					<iframe src="https://drive.google.com/file/d/1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n/preview" height="100%" width="100%" frameBorder="2" scrolling="auto" ></iframe>
+					<iframe src="" height="100%" width="100%" frameBorder="2" scrolling="auto" ></iframe>
 				</div>
 				<div class="modal-footer">
 					<a class="btn btn-success" href="https://drive.google.com/uc?export=download&id=1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n">Download</a>
@@ -592,7 +592,6 @@
 
 	  buildSongCards();
 
-
 	  jQuery('#search-box').on('input', function() {
 			textsearch = $('#search-box').val()
 			if(textsearch == "") {
@@ -613,6 +612,11 @@
 			$('.arrangement-nav .menu-item.active').removeClass('active');
 			$(this).addClass('active');
 			buildSongCards();
+		});
+
+		$('.btn-view-music-sheet').click(function() {
+			url = $(this).attr('data');
+			$('.modal .modal-body iframe').attr('src', url);
 		});
 	</script>
 	</body>
