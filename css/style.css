@@ -2014,6 +2014,9 @@ audio {
   background: #393939;
   border: none !important;
 }
+.song-card .panel-body .row {
+  padding: 5px;
+}
 
 .song-card .panel-body .btn-view-music-sheet {
   filter: invert(1);
@@ -2046,7 +2049,7 @@ audio {
 
 
 .song-card .panel-body .music-sheet {
-  padding-top: 5px;
+  padding: 0;
 }
 
 .song-card .panel-body .music-sheet span {
@@ -2055,7 +2058,7 @@ audio {
 }
 
 .song-card .panel-body .view-music-sheet {
-  padding-top: 5px;
+  padding: 0;
   text-align: right;
 }
 
