@@ -1987,8 +1987,8 @@ body {
 }
 .search-box-wrapper #search-box {
   padding-left: 10px;
+  border: 2px solid #5d5d5d;
 }
-
 
 audio {
   filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
