@@ -2124,10 +2124,12 @@ audio {
 }
 
 .modal-title {
+  font-size: 25px;
   color: #fff;
 }
 
 .modal-header {
+  padding: 10px 0 0 25px;
   border-bottom: #505050;
 }
 
@@ -2141,4 +2143,7 @@ audio {
 
 .modal-footer {
   border-top: #505050;
+}
+.modal-footer .btn {
+  font-size: 18px;
 }
