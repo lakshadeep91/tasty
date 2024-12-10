@@ -2080,6 +2080,7 @@ audio {
 }
 
 .song-card .song-name span {
+  display: inline-block;
   margin-right: 10px;
 }
 
