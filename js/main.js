@@ -641,7 +641,7 @@
 			buildSongCards();
 		});
 
-		$('.btn-view-music-sheet').click(function() {
+		$('.panel-group').on("click", ".btn-view-music-sheet", function() {
 			var file_id = $(this).attr('data');
 			var url = 'https://drive.google.com/file/d/' + file_id  + '/preview';
 			$('.modal .modal-body iframe').attr('src', url);
