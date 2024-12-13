@@ -449,6 +449,11 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 1.5;
 }
 
+@media screen and (max-width: 992px) {
+.fh5co-section p {
+  font-size: 18px;
+}
+}
 .section-heading {
   width: 100%;
   float: left;
@@ -2181,4 +2186,8 @@ audio {
 
 .modal-footer .btn-danger {
   background-color: #a3403d;
+}
+
+.icon-arrow-right22 {
+  font-size: 15px;
 }
