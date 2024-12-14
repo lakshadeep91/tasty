@@ -2177,15 +2177,6 @@ audio {
   margin: 0;
   border-radius: 0;
   padding: 5px 10px;
-  border: none;
-}
-
-.modal-footer .btn-success {
-  background-color: #277927;
-}
-
-.modal-footer .btn-danger {
-  background-color: #a3403d;
 }
 
 .icon-arrow-right22 {
