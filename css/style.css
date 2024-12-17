@@ -2068,11 +2068,12 @@ audio {
 
 
 .song-card .panel-body .music-sheet {
+  line-height: 1.4;
   padding: 0;
 }
 
 .song-card .panel-body .music-sheet span {
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 5px;
 }
 
