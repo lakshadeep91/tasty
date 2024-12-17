@@ -1972,19 +1972,20 @@ body {
   width: 100%;
 }
 
+.arrangement-nav .menu-item {
+  color: #fff;
+  text-align: center;
+  border-top: 2px solid #ea272d00;
+}
+
 .arrangement-nav .menu-item.active {
-  color: #ea272d;
   background-color: #282828;
   font-weight: bold;
+  border-top: 2px solid #ea272d;
 }
 
 .arrangement-nav .menu-item:hover {
   background-color: #282828;
-}
-
-.arrangement-nav .menu-item {
-  color: #fff;
-  text-align: center;
 }
 
 .search-box-wrapper img {
