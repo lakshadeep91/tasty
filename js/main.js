@@ -355,8 +355,10 @@
 	var lang = getUrlParameter("lang")
 	$(".biography").hide()
 	if(lang === "pol") {
+		$(".biography.bio-english").appendTo(".biography.bio-polish");
 		$(".bio-polish").show()
 	} else {
+		$(".biography.bio-polish").appendTo(".biography.bio-english");
 		$(".bio-english").show()
 	}
 
