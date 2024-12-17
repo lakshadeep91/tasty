@@ -621,7 +621,7 @@
 	  buildSongCards();
 
 	  jQuery('#search-box').on('input', function() {
-			var textsearch = $('#search-box').val()
+			var textsearch = $('#search-box').val().toLowerCase()
 			if(textsearch == "") {
 				$(".song-card").show()
 				return true;
