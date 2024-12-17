@@ -2031,9 +2031,6 @@ audio {
   background: #313131;
   border: none !important;
 }
-.song-card .panel-body .row {
-  padding: 5px;
-}
 
 .song-card .panel-body .btn-view-music-sheet {
   margin-right: 7px;
@@ -2083,8 +2080,9 @@ audio {
 }
 
 .song-card .panel-body .row {
-  border-bottom: 1px solid #2b2b2b;
   margin: 0;
+  padding: 5px;
+  border-bottom: 1px solid #242424;
 }
 
 .song-card .audio-player {
