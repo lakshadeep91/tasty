@@ -197,7 +197,8 @@
 				$('.js-top').removeClass('active');
 			}
 
-			if ( $win.scrollTop() > 100 ) {
+			// if ( $win.scrollTop() > 100 ) {
+			if ( $win.scrollTop() > 40 ) {
 				$('.fh5co-nav').addClass('scrolled');
 			} else {
 				$('.fh5co-nav').removeClass('scrolled');
@@ -413,7 +414,7 @@
 				{
 					"name": "File 3 bla bla bla bla",
 					"type": "PROTECTED",
-					"url": ""
+					"id": ""
 				},
 			]
 		},

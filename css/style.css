@@ -717,6 +717,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started,
 #fh5co-portfolio,
 #fh5co-blog,
+#fh5co-gallery,
 #fh5co-content-section,
 #fh5co-contact,
 #fh5co-footer {
@@ -1964,7 +1965,6 @@ body {
 }
 
 .arrangement-nav span {
-  color: #c3c3c3;
   font-size: 21px;
 }
 
@@ -1973,6 +1973,7 @@ body {
 }
 
 .arrangement-nav .menu-item.active {
+  color: #ea272d;
   background-color: #282828;
   font-weight: bold;
 }
@@ -1982,6 +1983,7 @@ body {
 }
 
 .arrangement-nav .menu-item {
+  color: #fff;
   text-align: center;
 }
 
