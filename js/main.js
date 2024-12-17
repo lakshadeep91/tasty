@@ -421,6 +421,75 @@
 			]
 		},
 		{
+			"title": "My heart will go on 2",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "My heart will go on 5",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "My heart will go on 3",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
 			"title": "My heart will go on",
 			"artist": "Celine Dion",
 			"song_url": "audio/sample1.mp3",
@@ -445,6 +514,29 @@
 		},
 		{
 			"title": "Symphony No. 40",
+			"artist": "Wolfgang Amadeus Mozart",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"title": "Symphony No. 41",
 			"artist": "Wolfgang Amadeus Mozart",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -629,11 +721,11 @@
 				return true;
 			}
 			$(".song-card").hide()
-			contentWayPoint();
 			$(".song-name span").each(function(index) {
 				var element_text = $(this).text().toLowerCase()
 				if(element_text.indexOf(textsearch) >= 0) {
-					$(this).closest(".song-card").show()
+					contentWayPoint();
+					$(this).closest(".song-card").removeClass("fadeIn fadeInUp animated-fast").show()
 				}
 			});
 		});
