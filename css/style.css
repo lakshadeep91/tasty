@@ -1973,11 +1973,12 @@ body {
 }
 
 .arrangement-nav .menu-item.active {
-  background-color: #2f2f2f;
+  background-color: #282828;
+  font-weight: bold;
 }
 
 .arrangement-nav .menu-item:hover {
-  background-color: #2f2f2f;
+  background-color: #282828;
 }
 
 .arrangement-nav .menu-item {
@@ -2008,7 +2009,7 @@ audio {
 }
 
 .song-card .panel-heading {
-  background-color: #2f2f2f;
+  background-color: #282828;
   color: #fff;
   border-radius: 0;
   padding: 15px 0;
@@ -2027,7 +2028,7 @@ audio {
   color: #c5c5c5;
   padding: 0 10px;
   font-size: 15px;
-  background: #393939;
+  background: #313131;
   border: none !important;
 }
 .song-card .panel-body .row {
