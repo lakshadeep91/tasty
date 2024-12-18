@@ -2187,6 +2187,10 @@ audio {
   padding: 5px 10px;
 }
 
+.modal-footer .btn.btn-success {
+  width: 64px;
+}
+
 .icon-arrow-right22 {
   font-size: 15px;
 }
