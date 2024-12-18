@@ -1065,6 +1065,7 @@
 	  }
 
 	  function getSearchMatchingSongs() {
+			$('.alert-no-arrangements-found').hide();
 			var textsearch = $('#search-box').val().toLowerCase()
 			if(textsearch === "") {
 				return getActiveTabSongs();
@@ -1075,6 +1076,9 @@
 				if(currentTabSongs[i]["title"].toLowerCase().indexOf(textsearch) >=0 || currentTabSongs[i]["artist"].toLowerCase().indexOf(textsearch) >=0) {
 					newSongsData.push(currentTabSongs[i]);
 				}
+			}
+			if (!newSongsData.length) {
+				$('.alert-no-arrangements-found').show();
 			}
 			return newSongsData;
 	  }

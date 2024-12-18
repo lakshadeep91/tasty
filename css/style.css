@@ -2199,3 +2199,12 @@ a.link-button {
 a.link-button:hover {
   color: #f55156;
 }
+
+.alert-no-arrangements-found {
+  background-color: #ea272d;;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0px;
+  border: none;
+  font-weight: 500;
+}
