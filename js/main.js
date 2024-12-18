@@ -421,6 +421,374 @@
 			]
 		},
 		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
 			"title": "My heart will go on 2",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
@@ -651,22 +1019,11 @@
 			]
 		}
 	  ]
-	  function buildSongCards() {
-		$('.panel-group.arrangements-page').html('');
-		var count = 0
-		for (var i=0; i<songs_data.length; i++) {
-			var visible_files = [];
-			var protected_files = [];
-			var visible_music_sheets = '';
-			var protected_music_sheets = '';
-			var collapse_in = '';
-			var collapsed_flag = '';
 
-			var song_name = songs_data[i]["title"];
-			var artist_name = songs_data[i]["artist"];
-			var song_url = songs_data[i]["song_url"];
-			var active_tab = $(".arrangement-nav .active span").text();
-			var files = songs_data[i]["files"];
+	  function getActiveTabSongs() {
+		var active_tab = $(".arrangement-nav .active span").text();
+		var newSongsData = []
+		for(var i=0; i<songs_data.length; i++) {
 			var song_type = songs_data[i]["type"];
 			if (active_tab === "Polish Secular Music" && song_type === "POLISH_SECULAR") {
 				x = 1;
@@ -679,6 +1036,33 @@
 			} else {
 				continue;
 			}
+			newSongsData.push(songs_data[i]);
+		}
+		return newSongsData;
+	  }
+	  function buildSongCards(songs_data) {
+		var total_song_cards = $('.song-card').length;
+		var count = 0
+		if (!total_song_cards) {
+			$('.panel-group.arrangements-page').html('');
+		}
+		var i;
+		for (i=total_song_cards; i<songs_data.length; i++) {
+			if(count == 10) {
+				$(".show-more-arrangements").show()
+				return;
+			}
+			var visible_files = [];
+			var protected_files = [];
+			var visible_music_sheets = '';
+			var protected_music_sheets = '';
+			var collapse_in = '';
+			var collapsed_flag = '';
+
+			var song_name = songs_data[i]["title"];
+			var artist_name = songs_data[i]["artist"];
+			var song_url = songs_data[i]["song_url"];
+			var files = songs_data[i]["files"];
 			for (var j=0; j<files.length; j++) {
 				if(files[j]["type"] === "VISIBLE") {
 					visible_files.push(files[j]);
@@ -700,7 +1084,7 @@
 					protected_music_sheets = protected_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" class="btn-paid-music-sheet"><img src="images/mail.png"/></a></div></div>';
 				}
 			}
-			if(count === 0) {
+			if(count === 0 && !total_song_cards) {
 				collapse_in = 'in';
 			}
 			else {
@@ -709,32 +1093,44 @@
 			var song_card = '<div class="panel panel-default song-card animate-box fadeIn"><div class="panel-heading" role="tab" id="headingOne"><h4 class="panel-title"><div class="container"><div class="row"><div class="col-md-6 col-sm-12 song-name"><span class="song">' + song_name + '</span><span class="artist">' + artist_name + '</span></div><div class="col-md-5 col-sm-12 audio-player"><audio controls><source src="' + song_url + '" type="audio/mpeg">Your browser does not support the audio element.</audio></div><div class="col-md-1 col-sm-12 expand"><a class="collapse-arrow ' + collapsed_flag + '" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '" aria-expanded="true" aria-controls="collapse' + count + '"><img src="images/down-arrow.png"/></a></div></div></div></h4></div><div id="collapse' + i + '" class="panel-collapse collapse ' + collapse_in + '" role="tabpanel" aria-labelledby="headingOne"><div class="panel-body">' + visible_music_sheets + protected_music_sheets + '</div></div></div>';
 			$(".panel-group").append(song_card);
 			count++;
+			console.log(count);
+		}
+		if(i == songs_data.length) {
+			$('.show-more-arrangements').hide();
 		}
 	  }
 
-	  buildSongCards();
+	  buildSongCards(getActiveTabSongs());
+
+	  function getSearchMatchingSongs() {
+			var textsearch = $('#search-box').val().toLowerCase()
+			if(textsearch === "") {
+				return getActiveTabSongs();
+			}
+			var currentTabSongs = getActiveTabSongs();
+			var newSongsData = [];
+			for(var i=0; i<currentTabSongs.length; i++) {
+				if(currentTabSongs[i]["title"].toLowerCase().indexOf(textsearch) >=0 || currentTabSongs[i]["artist"].toLowerCase().indexOf(textsearch) >=0) {
+					newSongsData.push(currentTabSongs[i]);
+				}
+			}
+			return newSongsData;
+
+	  }
 
 	  jQuery('#search-box').on('input', function() {
-			var textsearch = $('#search-box').val().toLowerCase()
-			if(textsearch == "") {
-				$(".song-card").show()
-				return true;
-			}
-			$(".song-card").hide()
-			$(".song-name span").each(function(index) {
-				var element_text = $(this).text().toLowerCase()
-				if(element_text.indexOf(textsearch) >= 0) {
-					contentWayPoint();
-					$(this).closest(".song-card").removeClass("fadeIn fadeInUp animated-fast").show()
-				}
-			});
+			$('.panel-group').html('');
+			var newSongsData = getSearchMatchingSongs();
+			buildSongCards(newSongsData);
+			contentWayPoint();
 		});
 
 		$('.arrangement-nav .menu-item').click(function() {
 			$('#search-box').val('');
 			$('.arrangement-nav .menu-item.active').removeClass('active');
 			$(this).addClass('active');
-			buildSongCards();
+			$(".panel-group").html('')
+			buildSongCards(getActiveTabSongs());
 			contentWayPoint();
 		});
 
@@ -745,6 +1141,12 @@
 			url = 'https://drive.google.com/uc?export=download&id=' + file_id;
 			$('.modal .modal-footer .btn-success').attr('href', url);
 		});
+
+		$('.show-more-arrangements').click(function() {
+			buildSongCards(getSearchMatchingSongs());
+			contentWayPoint();
+		})
+
 
 		// Down Arrow Scrollable on Arrangements page
 		$(function() {
