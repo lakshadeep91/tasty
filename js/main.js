@@ -421,7 +421,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "My heart will go on",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -444,7 +444,30 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Symphony No. 40",
+			"artist": "Wolfgang Amadeus Mozart",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D 2",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -467,7 +490,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 3",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -490,7 +513,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 4",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -513,7 +536,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 5",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -536,7 +559,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 6",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -559,7 +582,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 7",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -582,7 +605,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 8",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -605,7 +628,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 9",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -628,7 +651,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 10",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -651,7 +674,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 11",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -674,7 +697,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 12",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -697,7 +720,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 13",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -720,7 +743,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 14",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -743,7 +766,7 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 15",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -766,7 +789,30 @@
 			]
 		},
 		{
-			"title": "Canon In D",
+			"title": "Canon In D 16",
+			"artist": "Canon Artist",
+			"song_url": "audio/sample1.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "File 1 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 2 bla bla bla bla",
+					"type": "VISIBLE",
+					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+				},
+				{
+					"name": "File 3 bla bla bla bla",
+					"type": "PROTECTED",
+					"id": ""
+				},
+			]
+		},
+		{
+			"title": "Canon In D 17",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
@@ -812,29 +858,6 @@
 			]
 		},
 		{
-			"title": "My heart will go on 5",
-			"artist": "Canon Artist",
-			"song_url": "audio/sample1.mp3",
-			"type": "POLISH_SECULAR",
-			"files": [
-				{
-					"name": "File 1 bla bla bla bla",
-					"type": "VISIBLE",
-					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
-				},
-				{
-					"name": "File 2 bla bla bla bla",
-					"type": "VISIBLE",
-					"id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
-				},
-				{
-					"name": "File 3 bla bla bla bla",
-					"type": "PROTECTED",
-					"id": ""
-				},
-			]
-		},
-		{
 			"title": "My heart will go on 3",
 			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
@@ -858,8 +881,8 @@
 			]
 		},
 		{
-			"title": "My heart will go on",
-			"artist": "Celine Dion",
+			"title": "My heart will go on 4",
+			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -881,8 +904,8 @@
 			]
 		},
 		{
-			"title": "Symphony No. 40",
-			"artist": "Wolfgang Amadeus Mozart",
+			"title": "My heart will go on 5",
+			"artist": "Canon Artist",
 			"song_url": "audio/sample1.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -1040,6 +1063,22 @@
 		}
 		return newSongsData;
 	  }
+
+	  function getSearchMatchingSongs() {
+			var textsearch = $('#search-box').val().toLowerCase()
+			if(textsearch === "") {
+				return getActiveTabSongs();
+			}
+			var currentTabSongs = getActiveTabSongs();
+			var newSongsData = [];
+			for(var i=0; i<currentTabSongs.length; i++) {
+				if(currentTabSongs[i]["title"].toLowerCase().indexOf(textsearch) >=0 || currentTabSongs[i]["artist"].toLowerCase().indexOf(textsearch) >=0) {
+					newSongsData.push(currentTabSongs[i]);
+				}
+			}
+			return newSongsData;
+	  }
+
 	  function buildSongCards(songs_data) {
 		var total_song_cards = $('.song-card').length;
 		var count = 0
@@ -1093,7 +1132,6 @@
 			var song_card = '<div class="panel panel-default song-card animate-box fadeIn"><div class="panel-heading" role="tab" id="headingOne"><h4 class="panel-title"><div class="container"><div class="row"><div class="col-md-6 col-sm-12 song-name"><span class="song">' + song_name + '</span><span class="artist">' + artist_name + '</span></div><div class="col-md-5 col-sm-12 audio-player"><audio controls><source src="' + song_url + '" type="audio/mpeg">Your browser does not support the audio element.</audio></div><div class="col-md-1 col-sm-12 expand"><a class="collapse-arrow ' + collapsed_flag + '" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '" aria-expanded="true" aria-controls="collapse' + count + '"><img src="images/down-arrow.png"/></a></div></div></div></h4></div><div id="collapse' + i + '" class="panel-collapse collapse ' + collapse_in + '" role="tabpanel" aria-labelledby="headingOne"><div class="panel-body">' + visible_music_sheets + protected_music_sheets + '</div></div></div>';
 			$(".panel-group").append(song_card);
 			count++;
-			console.log(count);
 		}
 		if(i == songs_data.length) {
 			$('.show-more-arrangements').hide();
@@ -1102,21 +1140,6 @@
 
 	  buildSongCards(getActiveTabSongs());
 
-	  function getSearchMatchingSongs() {
-			var textsearch = $('#search-box').val().toLowerCase()
-			if(textsearch === "") {
-				return getActiveTabSongs();
-			}
-			var currentTabSongs = getActiveTabSongs();
-			var newSongsData = [];
-			for(var i=0; i<currentTabSongs.length; i++) {
-				if(currentTabSongs[i]["title"].toLowerCase().indexOf(textsearch) >=0 || currentTabSongs[i]["artist"].toLowerCase().indexOf(textsearch) >=0) {
-					newSongsData.push(currentTabSongs[i]);
-				}
-			}
-			return newSongsData;
-
-	  }
 
 	  jQuery('#search-box').on('input', function() {
 			$('.panel-group').html('');
