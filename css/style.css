@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav ul li > a {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 18px;
 }
 .fh5co-nav ul li a {
   padding: 30px 15px;
@@ -1965,7 +1965,7 @@ body {
 }
 
 #about-page .timeline-body p {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .arrangement-nav span {
