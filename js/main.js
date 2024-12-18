@@ -150,7 +150,7 @@
 				
 			}
 
-		} , { offset: '85%' } );
+		} , { offset: '100%' } );
 	};
 
 
@@ -1140,7 +1140,6 @@
 
 	  buildSongCards(getActiveTabSongs());
 
-
 	  jQuery('#search-box').on('input', function() {
 			$('.panel-group').html('');
 			var newSongsData = getSearchMatchingSongs();
@@ -1169,13 +1168,4 @@
 			buildSongCards(getSearchMatchingSongs());
 			contentWayPoint();
 		})
-
-
-		// Down Arrow Scrollable on Arrangements page
-		$(function() {
-			$('a[href*=#]').on('click', function(e) {
-				e.preventDefault();
-				$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-			});
-		});
 }());
