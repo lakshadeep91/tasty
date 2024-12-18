@@ -2191,6 +2191,10 @@ audio {
   width: 64px;
 }
 
+.modal-footer .btn.btn-danger {
+  font-weight: 900;
+}
+
 .icon-arrow-right22 {
   font-size: 15px;
 }
