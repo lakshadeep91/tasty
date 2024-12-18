@@ -1049,7 +1049,7 @@
 		var i;
 		for (i=total_song_cards; i<songs_data.length; i++) {
 			if(count == 10) {
-				$(".show-more-arrangements").show()
+				$(".show-more-arrangements").removeClass('animated-fast fadeInUp').show()
 				return;
 			}
 			var visible_files = [];
