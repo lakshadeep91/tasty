@@ -2175,10 +2175,19 @@ div.arrangements-page .song-card .panel-body .view-music-sheet {
   transform: scale(1, 1);
 }
 
-
 .collapse-arrow img:hover {
   filter: invert(1);
   opacity: 0.5;
+}
+
+@media (max-width: 1200px){
+  .matthew-photo2 {
+    display: none;
+  }
+  #fh5co-blog .arrangements {
+    padding-top: 40px !important;
+
+  }
 }
 
 .modal-content {
