@@ -1980,16 +1980,19 @@ body {
   color: #fff;
   text-align: center;
   border-top: 2px solid #ea272d00;
+  transition: 0.5s;
 }
 
 .arrangement-nav .menu-item.active {
   background-color: #282828;
   font-weight: bold;
   border-top: 2px solid #ea272d;
+  transition: 0.5s;
 }
 
 .arrangement-nav .menu-item:hover {
   background-color: #282828;
+  transition: 0.5s;
 }
 
 .search-box-wrapper img {
