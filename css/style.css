@@ -2199,8 +2199,8 @@ div.arrangements-page .song-card .panel-body .view-music-sheet {
   }
 }
 @media (max-width: 768px){
-  #fh5co-blog .arrangements .song-card .panel-body .view-music-sheet {
-    padding: 0;
+  .song-card, .panel-body .view-music-sheet {
+    padding: 0 !important;
   }
 }
 
