@@ -1172,4 +1172,6 @@
 			buildSongCards(getSearchMatchingSongs());
 			contentWayPoint();
 		})
+
+
 }());
