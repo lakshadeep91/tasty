@@ -2193,6 +2193,14 @@ div.arrangements-page .song-card .panel-body .view-music-sheet {
   #fh5co-blog .arrangements .song-card .panel-body .row {
     padding: 5px 10px 5px 15px;
   }
+  #fh5co-blog .arrangements .song-card .panel-body .view-music-sheet {
+    padding: 0 0 0 30px;
+  }
+}
+@media (max-width: 768px){
+  #fh5co-blog .arrangements .song-card .panel-body .view-music-sheet {
+    padding: 0;
+  }
 }
 
 .modal-content {
