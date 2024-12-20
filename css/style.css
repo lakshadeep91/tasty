@@ -470,6 +470,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-about .img-wrap img {
   margin-bottom: 30px;
+  opacity: 0.7;
 }
 @media screen and (max-width: 992px) {
   #fh5co-about .img-wrap img {
@@ -2262,7 +2263,7 @@ a.link-button {
 }
 
 a.link-button:hover {
-  color: #f55156;
+  color: #f5771a;
 }
 
 .alert-no-arrangements-found {
