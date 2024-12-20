@@ -2042,7 +2042,7 @@ audio {
   background-color: #282828;
   color: #fff;
   border-radius: 0;
-  padding: 15px 0;
+  padding: 15px;
 }
 
 .song-card .panel-heading a {
@@ -2056,7 +2056,7 @@ audio {
 
 .song-card .panel-body {
   color: #c5c5c5;
-  padding: 0 10px;
+  padding: 0;
   font-size: 15px;
   background: #313131;
   border: none !important;
@@ -2104,14 +2104,18 @@ audio {
   margin-top: 5px;
 }
 
+div.arrangements-page .song-card .panel-body .view-music-sheet {
+  padding: 0 0 0 22px;
+}
+
 .song-card .panel-body .view-music-sheet {
-  padding: 0;
-  text-align: right;
+  padding: 0 0 0 21px;
+  text-align: left;
 }
 
 .song-card .panel-body .row {
   margin: 0;
-  padding: 5px;
+  padding: 5px 0px 5px 15px;
   border-bottom: 1px solid #242424;
 }
 
