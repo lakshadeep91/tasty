@@ -2291,3 +2291,26 @@ div.show-more-arrangements img:hover {
   opacity: 1;
   transition: 0.5s;
 }
+
+@media screen and (max-width: 480px) {
+  body#home-page .section-heading p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1760px) {
+  body#home-page .section-heading p {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  body#home-page .section-heading p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  body#home-page #fh5co-about {
+    padding-bottom: 120px !important;
+  }
+}
