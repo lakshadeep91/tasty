@@ -1019,6 +1019,29 @@
 			]
 		},
 		{
+			"title": "Silent Night / Cicha noc",
+			"artist": "Franz Gruber",
+			"song_url": "audio/Franz_Gruber__Silent_Night_Cicha_Nocmp3.mp3",
+			"type": "INTERNATIONAL_CHURCH",
+			"files": [
+				{
+					"name": "Piano, Vocal Score",
+					"type": "VISIBLE",
+					"id": "1p_AG0pbzmpicd1j0ioXoF0XDodZSpl2j"
+				},
+				{
+					"name": "Full Score",
+					"type": "VISIBLE",
+					"id": "1sQSE0Gy-DyMLVwniU1CMrFW3J1VkCDb6"
+				},
+				// {
+				// 	"name": "File 3 bla bla bla bla",
+				// 	"type": "PROTECTED",
+				// 	"url": ""
+				// },
+			]
+		},
+		{
 			"title": "Six violin concertos",
 			"artist": "Antonio Vivaldi",
 			"song_url": "audio/sample1.mp3",
