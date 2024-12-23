@@ -2322,3 +2322,7 @@ div.show-more-arrangements img:hover {
     font-size: 15px;
   }
 }
+
+#fh5co-timeline .biography p {
+  color: rgb(255 255 255 / 0.5);
+}
