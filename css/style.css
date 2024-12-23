@@ -1969,6 +1969,9 @@ body {
   }
 }
 @media (min-width: 1701px) and (max-width: 2000px) {
+  a.link-button {
+    font-size: 22px !important;
+  }
   #fh5co-header h1 {
     font-size: 70px !important;
   }
