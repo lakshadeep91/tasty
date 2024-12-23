@@ -2326,3 +2326,8 @@ div.show-more-arrangements img:hover {
 #fh5co-timeline .biography p {
   color: rgb(255 255 255 / 0.5);
 }
+
+body#home-page .display-tc h2 {
+  font-family: ui-sans-serif;
+  font-style: normal;
+}
