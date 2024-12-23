@@ -1175,6 +1175,7 @@
 		});
 
 		$('.arrangement-nav .menu-item').click(function() {
+			$('.alert-no-arrangements-found').hide();
 			$('#search-box').val('');
 			$('.arrangement-nav .menu-item.active').removeClass('active');
 			$(this).addClass('active');
