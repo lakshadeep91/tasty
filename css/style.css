@@ -1986,6 +1986,9 @@ body {
   .fh5co-heading p  {
     text-align: center;
   }
+  #english-about-me {
+    padding: 10px 20px 20px 20px;
+  }
 }
 
 #arrangements-page iframe,
