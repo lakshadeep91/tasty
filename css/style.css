@@ -1936,12 +1936,44 @@ body {
     --swiper-navigation-size: 20px;
   }
 }
-@media (min-width: 701px) and (max-width: 1200px){
+@media (min-width: 701px) and (max-width: 899px){
+  #fh5co-header h1 {
+    font-size: 30px !important;
+  }
+  #fh5co-header h2 {
+    font-size: 12px !important;
+  }
+}
+@media (min-width: 900px) and (max-width: 1199px){
+  #fh5co-header h1 {
+    font-size: 30px !important;
+  }
+  #fh5co-header h2 {
+    font-size: 12px !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1449px){
   #fh5co-header h1 {
     font-size: 60px !important;
   }
   #fh5co-header h2 {
     font-size: 20px !important;
+  }
+}
+@media (min-width: 1450px) and (max-width: 1700px) {
+  #fh5co-header h1 {
+    font-size: 70px !important;
+  }
+  #fh5co-header h2 {
+    font-size: 22px !important;
+  }
+}
+@media (min-width: 1701px) and (max-width: 2000px) {
+  #fh5co-header h1 {
+    font-size: 80px !important;
+  }
+  #fh5co-header h2 {
+    font-size: 25px !important;
   }
 }
 
@@ -2328,6 +2360,6 @@ div.show-more-arrangements img:hover {
 }
 
 body#home-page .display-tc h2 {
-  font-family: ui-sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-style: normal;
 }
