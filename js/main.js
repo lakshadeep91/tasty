@@ -348,7 +348,7 @@
 			$('#music-symbol').addClass('fadeIn fadeInUp animated-fast');
 		}, 300);
 		setTimeout(function() {
-			$('#choral-arrangements-heading').addClass('fadeIn fadeInRight animated');
+			$('#choral-arrangements-heading').addClass('fadeIn animated');
 		}, 300);
 		$('.line1').addClass('fadeInLeft animated-fast');
 		setTimeout(function() {
