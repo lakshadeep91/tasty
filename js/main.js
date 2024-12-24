@@ -126,8 +126,7 @@
 				i++;
 				if(($(this.element).parent().hasClass('music-sheet-design-bg')) ||
 				($(this.element).is('#choral-arrangements-heading')) ||
-				($(this.element).hasClass('search-box-wrapper')) ||
-				($(this.element).hasClass('arrangement-nav')))
+				($(this.element).hasClass('search-box-wrapper')))
 				{
 					return;
 				}
