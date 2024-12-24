@@ -370,7 +370,7 @@
 		setTimeout(function() {
 			showpanel($('.search-box-wrapper'));
 		}, 300);
-		$('.song-card').each(function(i, el) {
+		$('.arrangements-page .song-card').each(function(i, el) {
 			setTimeout(function() {
 				showpanel(el);
 			}, (200*i));
