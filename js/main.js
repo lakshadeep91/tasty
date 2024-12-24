@@ -126,7 +126,8 @@
 				i++;
 				if(($(this.element).parent().hasClass('music-sheet-design-bg')) ||
 				($(this.element).is('#choral-arrangements-heading')) ||
-				($(this.element).hasClass('search-box-wrapper')))
+				($(this.element).hasClass('search-box-wrapper')) ||
+				($(this.element).parent().parent().parent().parent().hasClass('arrangement-nav')))
 				{
 					return;
 				}
@@ -362,13 +363,24 @@
 		setTimeout(function() {
 			$('.line5').addClass('fadeInLeft animated-fast');
 		}, 500);
-		showpanel($($('.arrangement-nav .menu-item')[0]));
+		setTimeout(function() {
+			showpanel($($('.arrangement-nav .menu-item')[0]));
+		}, 200);
+		setTimeout(function() {
+			showpanel($($('.arrangement-nav .menu-item')[1]));
+		}, 300);
+		setTimeout(function() {
+			showpanel($($('.arrangement-nav .menu-item')[2]));
+		}, 400);
+		setTimeout(function() {
+			showpanel($($('.arrangement-nav .menu-item')[3]));
+		}, 500);
 		// setTimeout(function() {
 		// 	showpanel($('.show-more-arrangements'));
 		// }, 200);
 		setTimeout(function() {
 			showpanel($('.search-box-wrapper'));
-		}, 300);
+		}, 700);
 		$('.arrangements-page .song-card').each(function(i, el) {
 			setTimeout(function() {
 				showpanel(el);
