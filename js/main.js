@@ -124,7 +124,12 @@
 			if( direction === 'down' && !$(this.element).hasClass('animated-fast') ) {
 				
 				i++;
-
+				if(($(this.element).parent().hasClass('music-sheet-design-bg')) ||
+				($(this.element).is('#choral-arrangements-heading')) ||
+				($(this.element).hasClass('search-box-wrapper')))
+				{
+					return;
+				}
 				$(this.element).addClass('item-animate');
 				setTimeout(function(){
 
@@ -311,7 +316,6 @@
 	   }
 	}
 
-	
 	$(function(){
 		mobileMenuOutsideClick();
 		offcanvasMenu();
@@ -334,6 +338,44 @@
 	$(document).ready(function() {
 		const year = new Date().getFullYear();
 		$('#copyright-text').html('&copy; ' + year + ' by Matthew Jaskiewicz')
+
+		function showpanel(el) {
+			console.log('1')
+			$(el).addClass('fadeIn fadeInUp animated-fast');
+		}
+		setTimeout(function() {
+			$('#music-symbol').addClass('fadeIn fadeInUp animated-fast');
+		}, 300);
+		setTimeout(function() {
+			$('#choral-arrangements-heading').addClass('fadeIn fadeInRight animated-fast');
+		}, 400);
+		$('.line1').addClass('fadeInLeft animated-fast');
+		setTimeout(function() {
+			$('.line2').addClass('fadeInLeft animated-fast');
+		}, 200);
+		setTimeout(function() {
+			$('.line3').addClass('fadeInLeft animated-fast');
+		}, 300);
+		setTimeout(function() {
+			$('.line4').addClass('fadeInLeft animated-fast');
+		}, 400);
+		setTimeout(function() {
+			$('.line5').addClass('fadeInLeft animated-fast');
+		}, 500);
+		setTimeout(function() {
+			showpanel($('.arrangement-nav'));
+		}, 100);
+		setTimeout(function() {
+			showpanel($('.show-more-arrangements'));
+		}, 200);
+		setTimeout(function() {
+			showpanel($('.search-box-wrapper'));
+		}, 300);
+		$('.song-card').each(function(i, el) {
+			setTimeout(function() {
+				showpanel(el);
+			}, (200*i));
+		});
 	});	
 	$('.js-fullheight').css('height', $(window).height());
 	$('.modal iframe').css('height', $(window).height() - 250);

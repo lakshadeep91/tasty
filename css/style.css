@@ -2370,3 +2370,15 @@ body#home-page .display-tc h1 {
   font-family: "Libre Baskerville", serif;
   font-style: normal;
 }
+
+.music-sheet-design-bg {
+  margin-left: -50px;
+  opacity: 0.7;
+  display: block;
+}
+
+.music-sheet-design-bg img {
+  display: block;
+  place-items: center;
+  position: absolute;
+}
