@@ -348,8 +348,8 @@
 			$('#music-symbol').addClass('fadeIn fadeInUp animated-fast');
 		}, 300);
 		setTimeout(function() {
-			$('#choral-arrangements-heading').addClass('fadeIn fadeInRight animated-fast');
-		}, 400);
+			$('#choral-arrangements-heading').addClass('fadeIn fadeInRight animated');
+		}, 300);
 		$('.line1').addClass('fadeInLeft animated-fast');
 		setTimeout(function() {
 			$('.line2').addClass('fadeInLeft animated-fast');
