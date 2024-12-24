@@ -363,9 +363,9 @@
 			$('.line5').addClass('fadeInLeft animated-fast');
 		}, 500);
 		showpanel($($('.arrangement-nav .menu-item')[0]));
-		setTimeout(function() {
-			showpanel($('.show-more-arrangements'));
-		}, 200);
+		// setTimeout(function() {
+		// 	showpanel($('.show-more-arrangements'));
+		// }, 200);
 		setTimeout(function() {
 			showpanel($('.search-box-wrapper'));
 		}, 300);
