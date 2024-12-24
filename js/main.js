@@ -126,7 +126,8 @@
 				i++;
 				if(($(this.element).parent().hasClass('music-sheet-design-bg')) ||
 				($(this.element).is('#choral-arrangements-heading')) ||
-				($(this.element).hasClass('search-box-wrapper')))
+				($(this.element).hasClass('search-box-wrapper')) ||
+				($(this.element).hasClass('arrangement-nav')))
 				{
 					return;
 				}
@@ -362,9 +363,7 @@
 		setTimeout(function() {
 			$('.line5').addClass('fadeInLeft animated-fast');
 		}, 500);
-		setTimeout(function() {
-			showpanel($('.arrangement-nav'));
-		}, 100);
+		showpanel($($('.arrangement-nav .menu-item')[0]));
 		setTimeout(function() {
 			showpanel($('.show-more-arrangements'));
 		}, 200);
