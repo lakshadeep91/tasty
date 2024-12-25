@@ -1946,6 +1946,9 @@ body {
   .display-t {
     margin-top: -100px !important;
   }
+  .btn-choral-arrangements-banner {
+    font-size: 10px !important;
+  }
 }
 @media (min-width: 701px) and (max-width: 899px){
   #fh5co-header h1 {
