@@ -1141,11 +1141,15 @@
 
 	  function getSearchMatchingSongs() {
 			$('.alert-no-arrangements-found').hide();
+			$('.arrangement-nav').hide();
 			var textsearch = $('#search-box').val().toLowerCase()
 			if(textsearch === "") {
+				$('.arrangement-nav').show();
 				return getActiveTabSongs();
 			}
-			var currentTabSongs = getActiveTabSongs();
+			// var currentTabSongs = getActiveTabSongs();
+
+			var currentTabSongs = songs_data;
 			var newSongsData = [];
 			for(var i=0; i<currentTabSongs.length; i++) {
 				if(currentTabSongs[i]["title"].toLowerCase().indexOf(textsearch) >=0 || currentTabSongs[i]["artist"].toLowerCase().indexOf(textsearch) >=0) {
@@ -1248,6 +1252,4 @@
 			buildSongCards(getSearchMatchingSongs());
 			contentWayPoint();
 		})
-
-
 }());
