@@ -1227,10 +1227,18 @@
 
 	  buildSongCards(getActiveTabSongs());
 
-	  jQuery('#search-box').on('input', function() {
+		jQuery('#search-box').on('input', function() {
 			$('.panel-group').html('');
 			var newSongsData = getSearchMatchingSongs();
 			buildSongCards(newSongsData);
+			contentWayPoint();
+		});
+		$('a#clear-search-arrangements').click(function() {
+			$('#search-box').val('');
+			$('.panel-group').html('');
+			$('.arrangement-nav').show();
+			$('.alert-arrangements-found').hide()
+			buildSongCards(getActiveTabSongs());
 			contentWayPoint();
 		});
 
