@@ -1160,7 +1160,7 @@
 				}
 			}
 			if (!newSongsData.length) {
-				$('.alert-arrangements-found').hide();
+				// $('.alert-arrangements-found').hide();
 				$('.alert-no-arrangements-found').show();
 			}
 			return newSongsData;
@@ -1238,6 +1238,7 @@
 			$('.panel-group').html('');
 			$('.arrangement-nav').show();
 			$('.alert-arrangements-found').hide()
+			$('.alert-no-arrangements-found').hide();
 			buildSongCards(getActiveTabSongs());
 			contentWayPoint();
 		});

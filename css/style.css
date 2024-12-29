@@ -2052,21 +2052,23 @@ body {
 }
 
 .arrangement-nav .menu-item {
-  color: #fff;
+  color: #b1b1b1;
   text-align: center;
   /* border-top: 2px solid #ea272d00; */
   transition: 0.5s;
 }
 
 .arrangement-nav .menu-item.active {
-  background-color: #282828;
+  /* background-color: #282828; */
+  background-color: none;
   font-weight: bold;
   /* border-top: 2px solid #ea272d; */
   transition: 0.5s;
 }
 
 .arrangement-nav .menu-item:hover {
-  background-color: #282828;
+  /* background-color: #282828; */
+  color: #fff;
   transition: 0.5s;
 }
 
