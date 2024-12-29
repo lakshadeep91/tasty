@@ -1145,8 +1145,11 @@
 			var textsearch = $('#search-box').val().toLowerCase()
 			if(textsearch === "") {
 				$('.arrangement-nav').show();
+				$('.alert-arrangements-found').hide();
 				return getActiveTabSongs();
 			}
+			$('.alert-arrangements-found').show();
+			$('.alert-arrangements-found span#entered-search-text').html(textsearch);
 			// var currentTabSongs = getActiveTabSongs();
 
 			var currentTabSongs = songs_data;
@@ -1157,6 +1160,7 @@
 				}
 			}
 			if (!newSongsData.length) {
+				$('.alert-arrangements-found').hide();
 				$('.alert-no-arrangements-found').show();
 			}
 			return newSongsData;
@@ -1231,7 +1235,6 @@
 		});
 
 		$('.arrangement-nav .menu-item').click(function() {
-			$('.alert-no-arrangements-found').hide();
 			$('#search-box').val('');
 			$('.arrangement-nav .menu-item.active').removeClass('active');
 			$(this).addClass('active');
