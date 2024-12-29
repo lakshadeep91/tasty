@@ -1231,7 +1231,13 @@
 			$('.panel-group').html('');
 			var newSongsData = getSearchMatchingSongs();
 			buildSongCards(newSongsData);
-			contentWayPoint();
+			$('.song-card').each(function(i) {
+				var x = $(this)
+				setTimeout(function() {
+					$(x).addClass('animated-fast fadeInUp');
+					console.log('hello', x);
+				}, 100*i);
+			});
 		});
 		$('a#clear-search-arrangements').click(function() {
 			$('#search-box').val('');
