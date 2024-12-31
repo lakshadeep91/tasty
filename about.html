@@ -110,9 +110,13 @@
 
 	<div id="fh5co-timeline">
 		<div class="container biography bio-english animate-box">
-			<div style="text-align: center;">
-				<a href="about.html?lang=pol" class="btn btn-primary btn-outline btn-english">Zobacz po polsku</a>
+			<div class="toggle-language" style="place-self: center;">
+				<a href="about.html?lang=eng" id="english-toggle">English</a>
+				<a href="about.html?lang=pol" id="polish-toggle">Polski</a>
 			</div>
+			<!-- <div style="text-align: center;">
+				<a href="about.html?lang=pol" class="btn btn-primary btn-outline btn-english">Zobacz po polsku</a>
+			</div> -->
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline animate-box">
@@ -198,8 +202,12 @@
 			</div>
 		</div>
 		<div class="container biography bio-polish animate-box">
-			<div style="text-align: center;">
+			<!-- <div style="text-align: center;">
 				<a href="about.html?lang=eng" class="btn btn-primary btn-outline btn-english">View in English</a>
+			</div> -->
+			<div class="toggle-language" style="place-self: center;">
+				<a href="about.html?lang=eng" id="english-toggle">English</a>
+				<a href="about.html?lang=pol" id="polish-toggle">Polski</a>
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
@@ -209,7 +217,7 @@
                                 <h3>Wczesna kariera Macieja Jaśkiewicza</h3>
                             </div>
 						</li>
-						<li class="animate-box timeline-unverted">
+						<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -220,7 +228,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<li class="timeline-unverted animate-box">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -231,7 +239,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="animate-box timeline-unverted">
+						<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -246,7 +254,7 @@
 						<li class="timeline-heading text-center animate-box">
 							<div><h3>Praca w Kanadzie i rozwój kariery międzynarodowej</h3></div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<li class="timeline-unverted animate-box">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -257,7 +265,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="animate-box timeline-unverted">
+						<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -268,7 +276,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<li class="timeline-unverted animate-box">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -284,7 +292,7 @@
                                 <h3>Działalność artystyczna i sukcesy</h3>
                             </div>
 						</li>
-						<li class="animate-box timeline-unverted">
+						<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -295,7 +303,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<li class="timeline-unverted animate-box">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -306,7 +314,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="animate-box timeline-unverted">
+						<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -320,7 +328,7 @@
 						<li class="timeline-heading text-center animate-box">
 							<div><h3>Współpraca z różnymi środowiskami i dalszy rozwój</h3></div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<li class="timeline-unverted animate-box">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -331,7 +339,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="animate-box timeline-unverted">
+						<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -342,7 +350,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<li class="timeline-unverted animate-box">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -358,7 +366,7 @@
                                 <h3>Powstanie chóru Novi Singers</h3>
                             </div>
 						</li>
-						<li class="animate-box timeline-unverted">
+						<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -369,7 +377,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<li class="timeline-unverted animate-box">
 							<div class="timeline-badge"><i class="icon-music2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">

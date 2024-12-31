@@ -2023,6 +2023,38 @@ body {
   font-size: 19px;
 }
 
+#about-page .toggle-language a {
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+#about-page .toggle-language a#english-toggle {
+  color: #f3474d;
+  border: 1px solid #80808c;
+  border-radius: 20px 0 0 20px;
+  border-right: none;
+  margin-right: -4px;
+}
+#about-page .toggle-language a#english-toggle.active,
+#about-page .toggle-language a#english-toggle:hover {
+  color: #ea272d;
+  background-color: #d3d3d3;
+  font-weight: 600;
+}
+
+#about-page .toggle-language a#polish-toggle {
+  color: #bbbbbb;
+  border: 1px solid #99373a;
+  border-radius: 0 20px 20px 0;
+  border-left: none;
+}
+#about-page .toggle-language a#polish-toggle.active,
+#about-page .toggle-language a#polish-toggle:hover {
+  color: #fff;
+  background-color: #ea272d;
+  font-weight: 500;
+}
+
 .arrangement-nav span {
   font-size: 21px;
 }

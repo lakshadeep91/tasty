@@ -406,10 +406,13 @@
 	};
 	var lang = getUrlParameter("lang")
 	$(".biography").hide()
+	$("#about-page .toggle-language a").removeClass('active');
 	if(lang === "pol") {
+		$("#about-page .toggle-language a#polish-toggle").addClass('active');
 		$(".biography.bio-english").appendTo(".biography.bio-polish");
 		$(".bio-polish").show()
 	} else {
+		$("#about-page .toggle-language a#english-toggle").addClass('active');
 		$(".biography.bio-polish").appendTo(".biography.bio-english");
 		$(".bio-english").show()
 	}
@@ -1270,4 +1273,9 @@
 			buildSongCards(getSearchMatchingSongs());
 			contentWayPoint();
 		})
+
+		$('#about-page .toggle-language a').click(function() {
+			$('#about-page .toggle-language a').removeClass('active');
+			$(this).addClass('active');
+		});
 }());
