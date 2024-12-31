@@ -2030,7 +2030,7 @@ body {
 
 #about-page .toggle-language a#english-toggle {
   color: #f3474d;
-  border: 1px solid #80808c;
+  border: 1px solid #565656;;
   border-radius: 20px 0 0 20px;
   border-right: none;
   margin-right: -4px;
@@ -2047,6 +2047,7 @@ body {
   border: 1px solid #99373a;
   border-radius: 0 20px 20px 0;
   border-left: none;
+  padding-right: 15px;
 }
 #about-page .toggle-language a#polish-toggle.active,
 #about-page .toggle-language a#polish-toggle:hover {
