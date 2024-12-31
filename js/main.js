@@ -416,6 +416,16 @@
 		$(".biography.bio-polish").appendTo(".biography.bio-english");
 		$(".bio-english").show()
 	}
+	$('#about-page .toggle-language a').hover(function() {
+		$('#about-page .toggle-language a').removeClass('active');
+	});
+	$('#about-page .toggle-language a').mouseleave(function() {
+		if(lang == "pol") {
+			$("#about-page .toggle-language a#polish-toggle").addClass('active');
+		} else {
+			$("#about-page .toggle-language a#english-toggle").addClass('active');
+		}
+	});
 
 
 	// $('#fh5co-header .display-tc').css('padding-top', $('.fh5co-nav').height() + 32);
