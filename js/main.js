@@ -480,10 +480,6 @@
 		});
 	});
 
-	$('.show-more-arrangements').click(function() {
-		buildSongCards(getSearchMatchingSongs());
-		contentWayPoint();
-	})
 
 	$('#about-page .toggle-language a').click(function() {
 		$('#about-page .toggle-language a').removeClass('active');
