@@ -1,24 +1,27 @@
 var songs_data = [
 {
-    "title": "Canon In D",
-    "artist": "Canon Artist",
-    "song_url": "audio/sample1.mp3",
+    "title": "Morze, nasze morze/Sea, our Sea",
+    "artist": "J. Kowalski",
+    "song_url": "audio/Morze final trimmed.mp3",
     "type": "POLISH_SECULAR",
     "files": [
         {
-            "name": "File 1 bla bla bla bla",
+            "name": "Morze - SATB and Piano Score",
             "type": "VISIBLE",
-            "id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
-        },
+            "id": "1koNOD4RrqWfwWS7b6NiCAwS0g9OywtGY"
+        }
+    ]
+},
+{
+    "title": "Polonez Pożegnanie Ojczyzny Farewell  Polonaise",
+    "artist": "M.K.Oginski",
+    "song_url": "audio/Oginski Polonaise - trimmed.mp3",
+    "type": "POLISH_SECULAR",
+    "files": [
         {
-            "name": "File 2 bla bla bla bla",
+            "name": "Polonaise - Full Orchestral Score",
             "type": "VISIBLE",
-            "id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
-        },
-        {
-            "name": "File 3 bla bla bla bla",
-            "type": "PROTECTED",
-            "id": ""
+            "id": "169X1J_M6Cmi7Yr3BSFiXqahGsDrhf5sM"
         },
     ]
 },
@@ -552,46 +555,46 @@ var songs_data = [
     ]
 },
 {
-    "title": "Symphony No. 3, Eroica",
-    "artist": "Ludwig van Beethoven",
-    "song_url": "audio/sample1.mp3",
+    "title": "Ballada o Sw.Jozefie",
+    "artist": "Bogusław Paleczny",
+    "song_url": "audio/Ballada O Sw Jozefie D minor - trimmed.mp3",
     "type": "POLISH_CHURCH",
     "files": [
         {
-            "name": "File 1 bla bla bla bla",
+            "name": "Ballada Piano Vocal Score",
             "type": "VISIBLE",
-            "id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+            "id": "1O4-F4jFfAdnE0vPK8r1Npj0KgQI6llLq"
         },
         {
-            "name": "File 2 bla bla bla bla",
+            "name": "Ballada Full Orchestral Score",
             "type": "VISIBLE",
-            "id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+            "id": "1q7-HG_1cZP3TR1bqkx4q2KAZ7gPyXVc4"
         },
         {
-            "name": "File 3 bla bla bla bla",
+            "name": "Ballada Parts Scores",
             "type": "PROTECTED",
             "url": ""
         },
     ]
 },
 {
-    "title": "Pastoral Symphony, or Recollections of Country Life",
-    "artist": "Ludwig van Beethoven",
-    "song_url": "audio/sample1.mp3",
+    "title": "Tryumfy Króla Niebieskiego",
+    "artist": "Anonimous 19 cent",
+    "song_url": "audio/Tryumfy  in D Dec 2024 final - trimmed.mp3",
     "type": "POLISH_CHURCH",
     "files": [
         {
-            "name": "File 1 bla bla bla bla",
+            "name": "Tryumfy Piano Vocal Score",
             "type": "VISIBLE",
-            "id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+            "id": "1jE7sF2jyRdmnFljtu49ON49xUcVuId-X"
         },
         {
-            "name": "File 2 bla bla bla bla",
+            "name": "Tryumfy Full Orchestral Score",
             "type": "VISIBLE",
-            "id": "1G1_ce39VL-e3LEFEmeqM7DPH-qPhda4n"
+            "id": "1T4V-KbK3SexcIOtF-dlzLDDgG_sgklZm"
         },
         {
-            "name": "File 3 bla bla bla bla",
+            "name": "Tryumfy Parts Score",
             "type": "PROTECTED",
             "url": ""
         },
@@ -667,6 +670,7 @@ var songs_data = [
     ]
 }
 ]
+
 
 var contentWayPoint = function() {
     var i = 0;
