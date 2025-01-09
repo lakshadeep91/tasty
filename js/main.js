@@ -1220,7 +1220,7 @@
 			if(protected_files) {
 				for(var j=0; j<protected_files.length; j++) {
 					var file_name = protected_files[j]["name"];
-					protected_music_sheets = protected_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" class="btn-paid-music-sheet"><img src="images/mail.png"/></a></div></div>';
+					protected_music_sheets = protected_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="mailto:mjaskiewiczmusic@gmail.com" class="btn-paid-music-sheet"><img src="images/mail.png"/></a></div></div>';
 				}
 			}
 			if(count === 0 && !total_song_cards) {
