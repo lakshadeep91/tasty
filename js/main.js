@@ -1240,52 +1240,63 @@
 
 	  buildSongCards(getActiveTabSongs());
 
-		jQuery('#search-box').on('input', function() {
-			$('.panel-group').html('');
-			var newSongsData = getSearchMatchingSongs();
-			buildSongCards(newSongsData);
-			$('.song-card').each(function(i) {
-				var x = $(this)
-				setTimeout(function() {
-					$(x).addClass('animated-fast fadeInUp');
-					console.log('hello', x);
-				}, 100*i);
-			});
+	jQuery('#search-box').on('input', function() {
+		$('.panel-group').html('');
+		var newSongsData = getSearchMatchingSongs();
+		buildSongCards(newSongsData);
+		$('.song-card').each(function(i) {
+			var x = $(this)
+			setTimeout(function() {
+				$(x).addClass('animated-fast fadeInUp');
+				console.log('hello', x);
+			}, 100*i);
 		});
-		$('a#clear-search-arrangements').click(function() {
-			$('#search-box').val('');
-			$('.panel-group').html('');
-			$('.arrangement-nav').show();
-			$('.alert-arrangements-found').hide()
-			$('.alert-no-arrangements-found').hide();
-			buildSongCards(getActiveTabSongs());
-			contentWayPoint();
-		});
+	});
+	$('a#clear-search-arrangements').click(function() {
+		$('#search-box').val('');
+		$('.panel-group').html('');
+		$('.arrangement-nav').show();
+		$('.alert-arrangements-found').hide()
+		$('.alert-no-arrangements-found').hide();
+		buildSongCards(getActiveTabSongs());
+		contentWayPoint();
+	});
 
-		$('.arrangement-nav .menu-item').click(function() {
-			$('#search-box').val('');
-			$('.arrangement-nav .menu-item.active').removeClass('active');
-			$(this).addClass('active');
-			$(".panel-group").html('')
-			buildSongCards(getActiveTabSongs());
-			contentWayPoint();
-		});
+	$('.arrangement-nav .menu-item').click(function() {
+		$('#search-box').val('');
+		$('.arrangement-nav .menu-item.active').removeClass('active');
+		$(this).addClass('active');
+		$(".panel-group").html('')
+		buildSongCards(getActiveTabSongs());
+		contentWayPoint();
+	});
 
-		$('.panel-group').on("click", ".btn-view-music-sheet", function() {
-			var file_id = $(this).attr('data');
-			var url = 'https://drive.google.com/file/d/' + file_id  + '/preview';
-			$('.modal .modal-body iframe').attr('src', url);
-			url = 'https://drive.google.com/uc?export=download&id=' + file_id;
-			$('.modal .modal-footer .btn-success').attr('href', url);
-		});
+	$('.panel-group').on("click", ".btn-view-music-sheet", function() {
+		var file_id = $(this).attr('data');
+		var url = 'https://drive.google.com/file/d/' + file_id  + '/preview';
+		$('.modal .modal-body iframe').attr('src', url);
+		url = 'https://drive.google.com/uc?export=download&id=' + file_id;
+		$('.modal .modal-footer .btn-success').attr('href', url);
+	});
 
-		$('.show-more-arrangements').click(function() {
-			buildSongCards(getSearchMatchingSongs());
-			contentWayPoint();
-		})
-
-		$('#about-page .toggle-language a').click(function() {
-			$('#about-page .toggle-language a').removeClass('active');
-			$(this).addClass('active');
+	$('audio').on('play', function(x) {
+		var og_audio = this;
+		$('audio').each(function(){
+			console.log(og_audio, this);
+			if (this !== og_audio) {
+				this.pause(); // Stop playing
+				this.currentTime = 0; // Reset time
+			}
 		});
+	});
+
+	$('.show-more-arrangements').click(function() {
+		buildSongCards(getSearchMatchingSongs());
+		contentWayPoint();
+	})
+
+	$('#about-page .toggle-language a').click(function() {
+		$('#about-page .toggle-language a').removeClass('active');
+		$(this).addClass('active');
+	});
 }());
