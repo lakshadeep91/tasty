@@ -668,6 +668,43 @@ var songs_data = [
 }
 ]
 
+	var contentWayPoint = function() {
+		var i = 0;
+		$('.animate-box').waypoint( function( direction ) {
+			if( direction === 'down' && !$(this.element).hasClass('animated-fast') ) {
+				i++;
+				if(($(this.element).parent().hasClass('music-sheet-design-bg')) ||
+				($(this.element).is('#choral-arrangements-heading')) ||
+				($(this.element).hasClass('search-box-wrapper')) ||
+				($(this.element).parent().parent().parent().parent().hasClass('arrangement-nav')))
+				{
+					return;
+				}
+				$(this.element).addClass('item-animate');
+				setTimeout(function(){
+
+					$('body .animate-box.item-animate').each(function(k){
+						var el = $(this);
+						setTimeout( function () {
+							var effect = el.data('animate-effect');
+							if ( effect === 'fadeIn') {
+								el.addClass('fadeIn animated-fast');
+							} else if ( effect === 'fadeInLeft') {
+								el.addClass('fadeInLeft animated-fast');
+							} else if ( effect === 'fadeInRight') {
+								el.addClass('fadeInRight animated-fast');
+							} else {
+								el.addClass('fadeInUp animated-fast');
+							}
+
+							el.removeClass('item-animate');
+						},  k * 200, 'easeInOutExpo' );
+					});
+				}, 100);
+			}
+		} , { offset: '100%' } );
+	};
+
 function getActiveTabSongs() {
 var active_tab = $(".arrangement-nav .active span").text();
 var newSongsData = []
