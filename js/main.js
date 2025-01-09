@@ -341,7 +341,6 @@
 		$('#copyright-text').html('&copy; ' + year + ' by Matthew Jaskiewicz')
 
 		function showpanel(el) {
-			console.log('1')
 			$(el).addClass('fadeIn fadeInUp animated-fast');
 		}
 		setTimeout(function() {
@@ -472,7 +471,6 @@
 	$('audio').on('play', function(x) {
 		var og_audio = this;
 		$('audio').each(function(){
-			console.log(og_audio, this);
 			if (this !== og_audio) {
 				this.pause(); // Stop playing
 				this.currentTime = 0; // Reset time

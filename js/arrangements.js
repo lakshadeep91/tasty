@@ -822,7 +822,6 @@ jQuery('#search-box').on('input', function() {
         var x = $(this)
         setTimeout(function() {
             $(x).addClass('animated-fast fadeInUp');
-            console.log('hello', x);
         }, 100*i);
     });
 });
@@ -849,3 +848,12 @@ $('.show-more-arrangements').click(function() {
     buildSongCards(getSearchMatchingSongs());
     contentWayPoint();
 })
+$('audio').on('play', function(x) {
+    var og_audio = this;
+    $('audio').each(function(){
+        if (this !== og_audio) {
+            this.pause(); // Stop playing
+            this.currentTime = 0; // Reset time
+        }
+    });
+});
