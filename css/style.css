@@ -2207,6 +2207,7 @@ audio {
 }
 
 .song-card .panel-body .music-sheet span {
+  padding-left: 20px;
   font-size: 18px;
   margin-top: 5px;
 }
