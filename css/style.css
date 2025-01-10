@@ -2013,6 +2013,10 @@ body {
   }
 }
 
+.btn-choral-arrangements-banner {
+  text-shadow: none !important;
+}
+
 #arrangements-page iframe,
 #home-page iframe {
   width: 100%;
